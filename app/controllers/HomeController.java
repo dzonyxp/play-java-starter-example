@@ -2,9 +2,11 @@ package controllers;
 
 import models.Pair;
 import models.PartialUserForm;
+import models.Resoult;
 import play.data.Form;
 import play.mvc.*;
 
+import services.Comparator;
 import services.LogInCheck;
 import services.SignUpCheck;
 import views.html.*;
@@ -134,6 +136,21 @@ public class HomeController extends Controller {
         if (form.hasErrors())
             return badRequest(form.errors().toString());
         return ok(views.html.test.render("Logged In."));
+    }
+    public Result test0(String conf){
+        for (Integer i = 0; i<10; i++){
+            arr1.add(i.toString());
+        }
+        arr2.add("1");
+        arr2.add("3");
+        arr2.add("8");
+        arr2.add("9");
+        arr2.add("10");
+        arr2.add("50");
+        Comparator com = new Comparator(arr1, arr2);
+
+        Resoult res = com.compare();
+        return ok(views.html.test0.render(conf,res.getArr1()));
     }
 
 }

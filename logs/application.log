@@ -1,9 +1,59 @@
-2021-10-21 11:16:56,370 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-6 - ApplicationTimer demo: Starting application at 2021-10-21T09:16:56.364749500Z
-2021-10-21 11:16:56,457 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-6 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2021-10-21 11:36:08,869 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-7 - ApplicationTimer demo: Starting application at 2021-10-21T09:36:08.867510Z
+2021-10-21 11:36:08,946 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-7 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
     filters.ExampleFilter
 
-2021-10-21 11:16:57,025 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-6 - Application started (Dev) (no global state)
+2021-10-21 11:36:09,245 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-7 - Application started (Dev) (no global state)
+2021-10-21 11:56:29,706 [INFO] from application in application-akka.actor.internal-dispatcher-2 - ApplicationTimer demo: Stopping application at 2021-10-21T09:56:29.694788100Z after 1221s.
+2021-10-21 11:56:30,382 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-15 - ApplicationTimer demo: Starting application at 2021-10-21T09:56:30.377961800Z
+2021-10-21 11:56:30,392 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-15 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2021-10-21 11:56:30,409 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-15 - Application started (Dev) (no global state)
+2021-10-21 11:59:43,368 [INFO] from application in application-akka.actor.internal-dispatcher-2 - ApplicationTimer demo: Stopping application at 2021-10-21T09:59:43.367525800Z after 193s.
+2021-10-21 11:59:43,915 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-21 - ApplicationTimer demo: Starting application at 2021-10-21T09:59:43.914062700Z
+2021-10-21 11:59:43,923 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-21 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2021-10-21 11:59:43,938 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-21 - Application started (Dev) (no global state)
+2021-10-21 12:01:03,299 [INFO] from application in application-akka.actor.internal-dispatcher-4 - ApplicationTimer demo: Stopping application at 2021-10-21T10:01:03.299572Z after 80s.
+2021-10-21 12:01:03,768 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-26 - ApplicationTimer demo: Starting application at 2021-10-21T10:01:03.768317500Z
+2021-10-21 12:01:03,784 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-26 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2021-10-21 12:01:03,799 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-26 - Application started (Dev) (no global state)
+2021-10-21 12:03:26,928 [INFO] from application in application-akka.actor.internal-dispatcher-3 - ApplicationTimer demo: Stopping application at 2021-10-21T10:03:26.928458Z after 143s.
+2021-10-21 12:03:27,295 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-25 - ApplicationTimer demo: Starting application at 2021-10-21T10:03:27.294478100Z
+2021-10-21 12:03:27,306 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-25 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2021-10-21 12:03:27,320 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-25 - Application started (Dev) (no global state)
+2021-10-21 12:04:30,212 [INFO] from application in application-akka.actor.internal-dispatcher-4 - ApplicationTimer demo: Stopping application at 2021-10-21T10:04:30.211553900Z after 63s.
+2021-10-21 12:04:30,596 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-19 - ApplicationTimer demo: Starting application at 2021-10-21T10:04:30.595528700Z
+2021-10-21 12:04:30,605 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-19 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2021-10-21 12:04:30,615 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-19 - Application started (Dev) (no global state)
