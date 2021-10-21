@@ -1,0 +1,25 @@
+@()
+
+@main02("Sign up"){
+    <section id="content">
+        <article>
+            <h1>
+                Sign Up.
+            </h1>
+            <h1>
+                Email  |   Password
+            </h1>
+            <form method="post" action="/signUp">
+                <textarea name="email" rows="30" cols="50"></textarea>
+                <textarea name="password" rows="30" cols="50"></textarea>
+                <textarea name="repeatPassword" rows="30" cols="50"></textarea>
+                @*<input type="text" name="email" id="test01">
+                <input type="password" name="password" id="test02">*@
+                <input type="submit">
+            </form>
+            <h1>
+                Sign up test page.
+            </h1>
+        </article>
+    </section>
+}
