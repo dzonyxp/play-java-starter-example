@@ -21,6 +21,7 @@ POST     /logIn                    controllers.HomeController.logIn(request: Req
 
 GET     /test                       controllers.HomeController.test(conf: String ?= "")
 GET     /test0                       controllers.HomeController.test0(conf: String ?= "")
+POST     /test0                       controllers.HomeController.test0Post(conf: String ?= "", request: Request)
 +nocsrf
 POST     /validated                  controllers.HomeController.goBack
 GET     /validated                  controllers.HomeController.validated

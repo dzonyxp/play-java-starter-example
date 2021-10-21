@@ -1,5 +1,6 @@
 package controllers;
 
+import models.ComparableStrings;
 import models.Pair;
 import models.PartialUserForm;
 import models.Resoult;
@@ -8,6 +9,7 @@ import play.mvc.*;
 
 import services.Comparator;
 import services.LogInCheck;
+import services.Parser;
 import services.SignUpCheck;
 import views.html.*;
 
@@ -137,20 +139,28 @@ public class HomeController extends Controller {
             return badRequest(form.errors().toString());
         return ok(views.html.test.render("Logged In."));
     }
-    public Result test0(String conf){
-        for (Integer i = 0; i<10; i++){
-            arr1.add(i.toString());
-        }
-        arr2.add("1");
-        arr2.add("3");
-        arr2.add("8");
-        arr2.add("9");
-        arr2.add("10");
-        arr2.add("50");
-        Comparator com = new Comparator(arr1, arr2);
 
-        Resoult res = com.compare();
-        return ok(views.html.test0.render(conf,res.getArr1()));
+    public Result test0(String conf){
+        ArrayList<String> empty = new ArrayList<>();
+        return ok(views.html.test0.render("a", empty, empty));
+    }
+
+    public Result test0Post(String conf, Http.Request request){
+
+        Form<ComparableStrings> msgForm = formFactory.form(ComparableStrings.class).bindFromRequest(request);
+        if (msgForm.hasErrors())
+            return badRequest("Error");
+        ComparableStrings cs = msgForm.get();
+
+        Parser parser1 = new Parser(cs.getS1());
+        arr1 = parser1.parse();
+        Parser parser2 = new Parser(cs.getS2());
+        arr2 = parser2.parse();
+
+        Comparator comparator = new Comparator(arr1, arr2);
+        Resoult res = comparator.compare();
+
+        return ok(views.html.test0.render("done",res.getArr1(),res.getArr2()));
     }
 
 }

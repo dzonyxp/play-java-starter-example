@@ -1,4 +1,4 @@
-@(confirmation: String, list: ArrayList[String])
+@(confirmation: String, list1: ArrayList[String], list2: ArrayList[String])
 
 @main02("testing"){
     <section id="content">
@@ -10,18 +10,21 @@
             @confirmation
             </h1>
             <form method="post" action="/test0">
-                @*<textarea name="email" rows="30" cols="100"></textarea>
-                <textarea name="password" rows="30" cols="100"></textarea>
-                <input type="text" name="email" id="test01">
-                <input type="password" name="password" id="test02">
-                <input type="submit">*@
+                <textarea name="s1" rows="30" cols="100"></textarea>
+                <textarea name="s2" rows="30" cols="100"></textarea>
+                <input type="submit">
             </form>
             <h1>
                 Test Page.
             </h1>
             <ul>
-                @for(item <- list){
-                    <li>@item</li>
+                <h3>First result:</h3>
+                @for(item1 <- list1){
+                    <li>@item1</li>
+                }
+                <h3>Second result:</h3>
+                @for(item2 <- list2){
+                    <li>@item2</li>
                 }
             </ul>
         </article>
