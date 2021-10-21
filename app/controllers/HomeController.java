@@ -1,9 +1,6 @@
 package controllers;
 
-import models.ComparableStrings;
-import models.Pair;
-import models.PartialUserForm;
-import models.Resoult;
+import models.*;
 import play.data.Form;
 import play.mvc.*;
 
@@ -17,6 +14,7 @@ import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import io.ebean.Database;
 
 /**
  * This controller contains an action to handle HTTP requests
@@ -85,38 +83,14 @@ public class HomeController extends Controller {
             return redirect("http://localhost:9000/validated");
 
         }
-        //System.out.println("message recieved");
-        /*for (Integer i = 0; i<10; i++){
-            arr1.add(i.toString());
-        }
-
-        for (Integer i = 0; i<5; i++){
-            arr2.add(i.toString());
-        }
-        arr2.add("1");
-        arr2.add("3");
-        arr2.add("8");
-        arr2.add("9");
-        arr2.add("10");
-        arr2.add("50");
-        Comparator com = new Comparator(arr1, arr2);
-
-        Resoult res = com.compare();
-        for (int i = 0; i<arr1.size(); i++)
-            System.out.println(arr1.get(i));
-        System.out.println("array2: ");
-        for (int i = 0; i<arr2.size(); i++)
-            System.out.println(arr2.get(i));
-        //System.out.println(res.getArr1().size() + res.getArr2().size()+" "+ res.getArr1().get(5));
-        //System.out.println(request.header("aaa"));
-        //String message = msgForm.bindFromRequest().get("some");
-        //System.out.println(message);
-        return ok(views.html.test.render(conf));*/
     }
 
 
     public Result goBack(){
         System.out.println("Comming to test page");
+
+
+
         return redirect("http://localhost:9000/test");
     }
 
@@ -146,6 +120,9 @@ public class HomeController extends Controller {
     }
 
     public Result test0Post(String conf, Http.Request request){
+
+        Person person = new Person();
+
 
         Form<ComparableStrings> msgForm = formFactory.form(ComparableStrings.class).bindFromRequest(request);
         if (msgForm.hasErrors())
