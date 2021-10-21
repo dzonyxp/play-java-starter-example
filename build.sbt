@@ -22,3 +22,4 @@ lazy val root = (project in file("."))
     // Make verbose tests
     testOptions in Test := Seq(Tests.Argument(TestFrameworks.JUnit, "-a", "-v"))
   )
+libraryDependencies += "io.ebean" % "ebean" % "12.12.1"
