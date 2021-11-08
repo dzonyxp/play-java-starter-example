@@ -4,10 +4,6 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
-# An example controller showing how to use dependency injection
-GET     /count                      controllers.CountController.count
-# An example controller showing how to write asynchronous code
-GET     /message                    controllers.AsyncController.message
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(file)
@@ -21,9 +17,14 @@ POST     /logIn                    controllers.HomeController.logIn(request: Req
 
 GET     /test                       controllers.HomeController.test(conf: String ?= "")
 GET     /test0                       controllers.HomeController.test0(conf: String ?= "")
++nocsrf
 POST     /test0                       controllers.HomeController.test0Post(conf: String ?= "", request: Request)
 +nocsrf
 POST     /validated                  controllers.HomeController.goBack
 GET     /validated                  controllers.HomeController.validated
 +nocsrf
 POST    /test                       controllers.HomeController.recieved(conf: String ?= "Confirmed", request: Request)
+
+GET     /compare                  controllers.CompareController.compare(request: Request)
++nocsrf
+POST     /compare                  controllers.CompareController.compare(request: Request)

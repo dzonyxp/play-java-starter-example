@@ -6,16 +6,17 @@
             <h1>
                 Sign Up.
             </h1>
-            <h1>
-                Email  |   Password
-            </h1>
+
             <form method="post" action="/signUp">
-                <textarea name="email" rows="30" cols="50"></textarea>
-                <textarea name="password" rows="30" cols="50"></textarea>
-                <textarea name="repeatPassword" rows="30" cols="50"></textarea>
+                <label for="email">Email</label>
+                <input name="email" rows="30" cols="50">
+                <label for="name">Name</label>
+                <input name="name" rows="30" cols="50">
+                <label for="password">Password</label>
+                <input type="password" name="password" rows="30" cols="50" required>
                 @*<input type="text" name="email" id="test01">
                 <input type="password" name="password" id="test02">*@
-                <input type="submit">
+                <input type="submit" value="Sign In">
             </form>
             <h1>
                 Sign up test page.

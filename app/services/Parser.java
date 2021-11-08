@@ -6,12 +6,9 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Parser {
-    private String string;
+    private static String string;
 
-    public Parser(String string) {
-        this.string = string;
-    }
-    public ArrayList<String> parse(){
+    public static ArrayList<String> parse(){
     String str[] = string.split(" ");
     ArrayList<String> strList = new ArrayList<String>(Arrays.asList(str));
     return strList;

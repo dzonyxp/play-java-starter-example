@@ -1,12 +1,14 @@
 package controllers;
 
+import models.ComparableStrings;
+import models.Pair;
+import models.myResult;
 import models.*;
 import play.data.Form;
 import play.mvc.*;
 
 import services.Comparator;
 import services.LogInCheck;
-import services.Parser;
 import services.SignUpCheck;
 import views.html.*;
 
@@ -14,7 +16,6 @@ import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import io.ebean.Database;
 
 /**
  * This controller contains an action to handle HTTP requests
@@ -101,17 +102,37 @@ public class HomeController extends Controller {
         return ok(views.html.logIn.render());
     }
 
-    public Result signUp(Http.Request request) {
+    /*public Result signUp(Http.Request request) {
         Form<PartialUserForm> form = formFactory.form(PartialUserForm.class, SignUpCheck.class).bindFromRequest(request);
         if (form.hasErrors())
             return badRequest(form.errors().toString());
         return ok(views.html.test.render("Signed in."));
-    }
-    public Result logIn(Http.Request request){
-        Form<PartialUserForm> form = formFactory.form(PartialUserForm.class, LogInCheck.class).bindFromRequest(request);
+    }*/
+
+    public Result signUp(Http.Request request) {
+        Form<User> form = formFactory.form(User.class, SignUpCheck.class).bindFromRequest(request);
         if (form.hasErrors())
             return badRequest(form.errors().toString());
-        return ok(views.html.test.render("Logged In."));
+        User user = form.get();
+        Address address = new Address("aa","aa","aa");
+        address.save();
+        user.setAddress(address);
+        //address.save();
+        user.save();
+        return redirect("logIn");
+    }
+
+    public Result logIn(Http.Request request){
+        Form<User> form = formFactory.form(User.class, LogInCheck.class).bindFromRequest(request);
+        if (form.hasErrors())
+            return badRequest(form.errors().toString());
+        User user = form.get();
+        if (user == null)
+            return badRequest("user is null");
+        if (user.getPassword().equals(User.find.byId(user.getEmail()).getPassword()))
+            return ok(views.html.test.render("Logged In."));
+        else
+            return badRequest("error");
     }
 
     public Result test0(String conf){
@@ -120,24 +141,46 @@ public class HomeController extends Controller {
     }
 
     public Result test0Post(String conf, Http.Request request){
+/*
+        // datasource
+        DataSourceConfig dataSourceConfig = new DataSourceConfig();
+        dataSourceConfig.setUsername("test");
+        dataSourceConfig.setPassword("123");
+        dataSourceConfig.setUrl("jdbc:mysql://localhost:3306/localdb?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&useSSL=false");
+        dataSourceConfig.setDriver("com.mysql.cj.jdbc.Driver");
 
-        Person person = new Person();
+        // configuration ...
+        DatabaseConfig config = new DatabaseConfig();
+        config.setDataSourceConfig(dataSourceConfig);
+
+        Database database = DatabaseFactory.create(config);
+
+        User user = new User("email","name","pass");
+        database.save(user);
+*/
+
+
+
 
 
         Form<ComparableStrings> msgForm = formFactory.form(ComparableStrings.class).bindFromRequest(request);
         if (msgForm.hasErrors())
             return badRequest("Error");
         ComparableStrings cs = msgForm.get();
-
+/*
         Parser parser1 = new Parser(cs.getS1());
         arr1 = parser1.parse();
         Parser parser2 = new Parser(cs.getS2());
         arr2 = parser2.parse();
 
         Comparator comparator = new Comparator(arr1, arr2);
-        Resoult res = comparator.compare();
+        myResult res = comparator.compare();
 
         return ok(views.html.test0.render("done",res.getArr1(),res.getArr2()));
+    */
+        return ok();
+
     }
+
 
 }

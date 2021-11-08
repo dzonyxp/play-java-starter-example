@@ -1,0 +1,5 @@
+application.name=freelance.co.uk
+
+# MENU
+menu.home=Home
+menu.home=Home

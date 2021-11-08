@@ -1,0 +1,6 @@
+application.name=freelance.cz
+
+# MENU
+menu.home=Domů
+
+
