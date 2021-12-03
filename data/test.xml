@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<contacts>
+    <contact id='1'>
+        <firstname><![CDATA[Blanka]]></firstname>
+        <lastname><![CDATA[Hanáková]]></lastname>
+        <fullname><![CDATA[Blanka Hanáková]]></fullname>
+        <email><![CDATA[b.hanakova@jobscontact.cz]]></email>
+        <phone><![CDATA[+420 775 070 470]]></phone>
+        <skype><![CDATA[jobscontact-jcc001]]></skype>
+        <address><![CDATA[Křenová 531/69a, 602 00 Brno]]></address>
+    </contact>
+    <contact id='2'>
+        <firstname><![CDATA[Blanka]]></firstname>
+        <lastname><![CDATA[Hanáková]]></lastname>
+        <fullname><![CDATA[Blanka Hanáková]]></fullname>
+        <email><![CDATA[b.hanakova@jobscontact.cz]]></email>
+        <phone><![CDATA[+420 775 070 470]]></phone>
+        <skype><![CDATA[jobscontact-jcc001]]></skype>
+        <address><![CDATA[Křenová 531/69a, 602 00 Brno]]></address>
+    </contact>
+</contacts>

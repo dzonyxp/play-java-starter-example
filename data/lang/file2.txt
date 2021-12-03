@@ -1,0 +1,3780 @@
+application.name=freelance.co.uk
+
+# MENU
+menu.home=Home
+menu.projects=PROJECTS
+menu.register=REGISTRATION
+menu.newsAndEvents=NEWS AND EVENTS
+menu.login=Login
+menu.forProvider.myDashboard=DASHBOARD
+menu.forFreelancer=FOR FREELANCERS
+menu.forCompany=FOR COMPANIES
+menu.notifications=NOTIFICATIONS
+
+menu.news=News
+
+menu.account.login=Login
+menu.account.logout=Logout
+
+menu.bottom.faq=FAQ
+menu.bottom.services=Services
+menu.bottom.contact=Contact
+menu.bottom.terms=Terms and Conditions
+menu.bottom.imprint=Imprint
+menu.bottom.dataPolicy=Data Policy
+menu.bottom.register=Registration
+menu.bottom.blog=Blog
+menu.bottom.copyright=©{0} freelance.co.uk
+
+menu.newsticker=NEW PROJECTS
+menu.consultant=FOR FREELANCERS
+menu.company=FOR COMPANIES
+
+menu.profiles=PROFILES
+
+breadcrumbs.applicationDetails=Offer detail
+
+header.sessionEnds=minutes until the end of your session
+header.sessionExpired=Your login has expired
+
+forFreelancer.title=For freelancers
+forCompany.title=For companies
+
+# PUBLIC PART
+errors.generic=An unexpected error occurred.
+errors.404.title=Sorry, we can''t find this page.
+errors.404.description=But we will try to find you the right <a href="/profiles" target="_self">freelancer</a> for your project or your next <a href="/project-lists" target="_self">job offer</a>.
+errors.other.title=Sorry, something went wrong.
+errors.other.description=Please check that you entered the address correctly. If the error persists, <a href="/contact" target="_self">contact us</a>.
+errors.session.invalid=Your login has expired. Please log in again.
+
+# GENERAL VARIABLES
+general.contact.email=info@freelance.co.uk
+general.contact.supportEmail=support@freelance.co.uk
+general.contact.phone=+49 89 215378-222
+general.contact.phone.href=tel:+4989215378222
+general.contact.fax=
+general.contact.address.oneLine.full=Nymphenburger Str. 70, D-80335 München
+general.contact.address.oneLine=Nymphenburger Str. 70, D-80335 München
+general.contact.address.full=<address><span>freelance.de GmbH</span> <br> \
+Nymphenburger Str. 70 <br> \
+D-80335 München<br> \
+</address>
+general.contact.address.footer=freelance.co.uk <br> \
+Nymphenburger Str. 70 <br> \
+D-80335 München -
+general.contact.additionalInfo=Simon-Alexandre Gravel <br /> \
+   Handelsregister des Amtsgerichts München, HRB-Nr.: 163159 <br />
+
+# GENERAL TRANSLATIONS
+general.here=Here
+general.yes=Yes
+general.no=No
+general.ok=OK
+general.back=Back
+general.save=Save
+general.skip=Skip
+general.saveAndContinue=Save and continue
+general.continue=next
+general.edit=Edit
+general.add=Add
+general.delete=Delete
+general.cancel=Cancel
+general.mr=Mr.
+general.mrs=Ms.
+general.new=New
+general.pleaseSelect=Please select…
+general.duplicate=Duplicate
+general.search=Search
+general.send=Send
+general.mark=Mark
+general.show=Show
+general.searchPlaceholder=What do you want to search for?
+general.searchSkillPlaceholder=Search for a skill
+general.clickHere=Click here
+general.phone=Phone number
+general.phone.abbreviation=Phone
+general.fax=Fax
+general.email=Email
+general.emailPlaceholder=name@example.com
+general.more=more…
+
+general.datepicker.close=Cancel
+general.close=Cancel
+general.datepicker.current=Today
+general.datepicker.clear=Delete
+general.hourAbbr=hrs.
+general.month=Month
+general.month.one=month
+general.month.few=months
+general.month.many=months
+general.previous=Back
+general.next=Next
+general.year=Year
+general.years=Years
+general.nrOfYears.one={0} year
+general.nrOfYears.few={0} years
+general.nrOfYears.many={0} years
+general.noResults=We did not find any results
+general.notDefined=Not specified
+
+general.month.january=January
+general.month.february=February
+general.month.march=March
+general.month.april=April
+general.month.may=May
+general.month.june=June
+general.month.july=July
+general.month.august=August
+general.month.september=September
+general.month.october=October
+general.month.november=November
+general.month.december=December
+general.loading=Loading…
+general.year_years={0} year(s)
+general.emptyList=No items yet
+general.date=Date
+general.searchResults=Search results
+general.searchResults.noResults=No matching items found, please change the search criteria.
+general.searchKeyword=Keyword
+
+general.confirmDelete=Are you sure you want to delete this item?
+general.confirmDeleteTitle=Confirm the deletion
+general.required=(*=Required field)
+
+general.gender=Gender
+general.gender.f=Female
+general.gender.m=Male
+general.gender.d=Diverse
+general.gender.x=No indication 
+
+general.salutation.male=Hello
+general.salutation.female=Hello
+general.salutation.withName=Hello
+general.salutation.withoutName=Hello
+
+general.amount.from=from
+general.amount.From=From
+general.amount.to=to
+general.amount.To=To
+
+general.date.from=from
+general.date.From=From
+general.date.to=to
+general.date.To=To
+
+general.deletedUser=Deleted user
+
+general.email.ending=Best regards<br>Your freelance.co.uk team
+
+#errors
+error.invalid=Invalid value
+error.invalid.java.util.Date=Invalid date
+error.required=This item cannot be left blank.
+error.number=Please enter a number
+error.maxLength=You can enter up to {0} characters
+error.minLength=You must enter at least {0} characters
+error.minLengthOrEmpty=The field must remain empty or at least {0} characters must be entered.
+error.email=Please enter a valid email address
+error.expected.date=Please enter a date
+error.size=Invalid list length
+error.min=Value must be greater than or equal to {0}.
+error.sameSkillAddedEarlier=You have previously added this skill
+error.sameIndustryAddedEarlier=You have added this before
+error.dateInHistory=Date cannot be in the past.
+error.startDateAfterEndDate=Start date must be before end date.
+error.sameLanguageAddedEarlier=You have previously entered this language.
+error.unableToSaveData=Data could not be saved, please check your entry.
+error.containsContactData=Please do not provide any contact information (name, email, phone, URL).
+error.generalError=Action failed. Please try it again or contact us.
+error.pattern=Invalid value
+error.maxSkillNumber=The maximum amount of skills is {0}.
+
+# files
+fileupload.successfull=You have uploaded the file.
+fileupload.failed=We were unable to upload your file.
+fileupload.failedImageMinimalResolution=Image size should be at least {0} pixels.
+fileupload.maxImageSizeMessage=The uploaded photo is too large. The maximum photo size is {0}.
+fileupload.maxFileSizeMessage=The uploaded file is too large. The maximum file size is {0}.
+fileupload.wrongExtensionMessage=Unsupported file type. You can only upload files of the following types: {0}
+
+# mail standard texts
+mail.footer.signature.text=Your freelance.co.uk team
+mail.footer.link.home.href=https://www.freelance.co.uk
+mail.footer.link.home.text=freelance.co.uk - All rights reserved
+
+js.delete.confirmation=Are you sure you want to delete this?
+
+# APPLICATION
+application.index.slogan=only the best
+application.index.text=Online platform for all freelancers
+application.index.desc=only the best
+application.index.search.button=search
+application.index.title=freelance.co.uk - Projects for freelancers and independent professionals
+application.index.metaDescription=We connect companies and their orders with freelancers and independent professionals. Take a look at freelance.co.uk and explore the current offer.
+application.index.content.title=Hire the right freelancer - run successful projects.
+application.index.content.subTitle=The ideal expert for your project is waiting for you on our marketplace! Register now and get FREE access.
+application.index.content.button.company=GET YOUR FREELANCER
+application.index.content.button.freelancer=ACQUIRE YOUR PROJECT
+application.index.projectFeed.title=Recommended projects
+application.index.projectFeed.registerButton=Register to see more projects
+application.index.profileFeed.title=Recommended profiles
+application.index.profileFeed.registerButton=Register to see more profiles
+
+application.footer.about.title=About freelance.co.uk
+application.footer.about.content=<p> We connect innovative companies with freelance professionals. <br> We bring experience from the German market to the UK market, where we have been operating the sister platform freelance.de since 2007. </p>
+application.footer.contact.title=Do you have any questions? Ask us!
+application.footer.contact.content=<p> We will be happy to advise you. Feel free to send us an <a href="mailto:{0}">email</a>. \
+     You can also see the <a href="{3}" target="_self">FAQ</a> or use our <a href="{4}" target="_self">contact form</a>. </p> \
+     <b>Email:</b> <a href="mailto:{0}">{0}</a></p>
+
+application.aboutUs=What we do
+application.faq=FAQ
+application.services=Our services
+
+application.contact=Contact
+application.contact.text=Do you have any further questions about freelance.co.uk? <br> \
+Please use the contact form to contact us. <br> <br> \
+freelance.co.uk - only the best
+application.contact.name=Name
+application.contact.email=Email
+application.contact.send=Send
+application.contact.messageSent=Your message has been sent, we will contact you soon.
+application.contact.messageNotSent=We were unable to send your message. Please try again!
+application.contact.messageSubject=Query on freelance.co.uk
+
+application.contact.description=Message
+application.contact.contactAddress=Contact address
+application.imprint=Imprint freelance.co.uk
+application.terms=General Terms and Conditions for the use of the freelance.co.uk platform
+application.dataPolicy=Privacy Policy
+
+application.currency.default.name=GBP
+application.currency.default.symbol.before=£
+application.currency.default.symbol.after=
+application.currency.default.amount=£{0}
+
+application.news=News and Events
+application.news.news=News
+application.news.news.description=News and various information about freelance work will appear here.
+application.news.events=Events
+application.news.events.description=Dates of lectures, workshops, conferences and other similar events that may be of interest to you.
+
+application.aboutUs.slogan1=
+application.aboutUs.text1=
+
+application.aboutUs.slogan2=Benefits for <br> Your business
+application.aboutUs.text2=
+
+application.aboutUs.slogan3=Benefits for you <br> if you work freelance
+application.aboutUs.text3=<ul> \
+<li> Find the best projects tailored to your profile <br> </li> \
+<li> An effective platform for your promotion <br> </li> \
+<li> No brokerage commission <br> </li> \
+</ul>
+
+application.forProvider=For freelancers
+application.forProvider.createProfile=Create profile now
+application.forProvider.listProjects=Search for the right projects now
+
+application.forProvider.advantages.basic=\
+    <h2> You are now using a BASIC account: </h2> \
+    <p style="font-size: 18px; line-height: 32px;"> \
+    <i class="fa fa-check"> </i> Creating a profile <br /> \
+    <i class="fa fa-check"> </i> Access to project database <br /> \
+    <i class="fa fa-check"> </i> <b> Limited </b> submission of bids for projects <br /> \
+    <i class="fa fa-check"> </i> Email notification of found projects \
+    </p>
+
+application.forProvider.advantages.premium=\
+    <h2> You are now enjoying all the benefits of a premium account: </h2> \
+    <p style="font-size: 18px; line-height: 32px;"> \
+    <i class="fa fa-check"> </i> Creating a profile <br /> \
+    <i class="fa fa-check"> </i> Profile Download <br /> \
+    <i class="fa fa-check"> </i> <b> Unrestricted </b> access to the project database <br /> \
+    <i class="fa fa-check"> </i> <b> Unlimited </b> submission of bids for projects <br /> \
+    <i class="fa fa-check"> </i> Save templates for sending offers <br /> \
+    <i class="fa fa-check"> </i> View company contact information <br /> \
+    <i class="fa fa-check"> </i> Creating Search Agents <br /> \
+    <i class="fa fa-check"> </i> Email notification of found projects \
+    </p>
+
+
+application.forCorporation=For companies
+application.forCorporation.text=All innovative companies are looking for the best collaborators here. <br> \
+    <br> \
+    A detailed list of our services and offers can be found here.
+application.forCorporation.addProject=List project now
+
+application.forCompany.advantages.basic=\
+    <h2> You are now using a BASIC account </h2> \
+    <p style="font-size: 18px; line-height: 32px;"> \
+    <i class="fa fa-check"> </i> Creating projects <br /> \
+    <i class="fa fa-check"> </i> Accepting Offers <br /> \
+    <i class="fa fa-check"> </i> Access to the freelancer database <br /> \
+    </p>
+
+application.forCompany.advantages.premium=\
+    <h2> You now enjoy all the benefits of a premium account </h2> \
+    <p style="font-size: 18px; line-height: 32px;"> \
+    <i class="fa fa-check"> </i> Creating projects <br /> \
+    <i class="fa fa-check"> </i> Accepting Offers <br /> \
+    <i class="fa fa-check"> </i> Access to the freelancer database <br /> \
+    <i class="fa fa-check"> </i> Profile Download \
+    </p>
+
+application.companyPricelist.freeTarifName=BASIC
+application.companyPricelist.register=Registration
+application.companyPricelist.buy.PREMIUM=Upgrade membership
+application.companyPricelist.forFree=No fee
+application.companyPricelist.priceFrom=From
+application.companyPricelist.priceDays=Days
+application.companyPricelist.monthly=Month
+application.companyPricelist.yearly=year
+application.companyPricelist.upgradeDiscount=Upgrade discount
+application.companyPricelist.item.1=Post projects on marketplace
+application.companyPricelist.item.2=Browse freelancer database
+application.companyPricelist.item.2.b=Advanced filtering in freelancer database
+application.companyPricelist.item.3=Grow reach of your project
+application.companyPricelist.item.4=View freelancer contact details and direct messaging
+application.companyPricelist.item.5=Request offers from selected freelancers
+application.companyPricelist.discountBadge=
+
+application.freelancerPricelist.freeTarifName=BASIC
+application.freelancerPricelist.forFree=No fee
+application.freelancerPricelist.register=Registration
+application.freelancerPricelist.buy.PREMIUM=Upgrade membership
+application.freelancerPricelist.discountBadge=
+
+# DASHBOARD
+dashboard.myData.main=OVERVIEW
+dashboard.myData.offers=OFFERS
+dashboard.myData.projects=PROJECTS
+dashboard.myData.account=ACCOUNT
+dashboard.myData.title=My Account
+dashboard.myData.myDataButton=My Account
+dashboard.myData.mySentOffersButton=Sent offers
+dashboard.myData.myReceivedOffersButton=Received offers
+dashboard.myData.mySentProposalsButton=Sent offers
+dashboard.myData.myReceivedProposalsButton=Received offers
+dashboard.myData.myResourceProfileButton=My profile
+dashboard.myData.myCompanyButton=Company profile
+dashboard.myData.myProjectsButton=Projects
+dashboard.myData.myWatchlist=Favorite projects
+dashboard.myData.myProfiles=Favorite profiles
+dashboard.myData.myMessages=Messages
+dashboard.myData.myContactPersons=Contacts
+
+dashboard.myData.mySearchAgents=Search agents
+dashboard.myData.mySubscription=My membership
+
+dashboard.myProjects=Profile
+dashboard.myProjects.noProjects=No projects have been published yet.
+dashboard.myProjects.more=More
+
+dashboard.offersActivities=New offer status
+dashboard.offersActivities.noActivities=No offer status change
+
+dashboard.receivedOffers=New offers for me
+dashboard.receivedOffers.noOffers=You have no new offers.
+
+dashboard.resources=My Offer
+
+dashboard.myProfile=Profile
+
+dashboard.profileStatus.title=Your profile status
+dashboard.profileStatus.message.pending=We will quickly review and publish your profile.
+dashboard.profileStatus.message.rejected=We have checked your profile.
+dashboard.profileStatus.feedback=Professional feedback
+dashboard.profileStatus.message.rejected.nextStep=Please edit your profile based on feedback from our experts and try submitting again.
+dashboard.profileStatus.message.rejected.link=Go to profile
+dashboard.profileStatus.message.new=Please edit your profile and try submitting again.
+dashboard.profileStatus.poorQualityProfile=Your profile is incomplete!
+dashboard.profileStatus.pleaseUpdateProfile=Please provide information about work and project experience in the <a href={0}>Profile</a> section.
+
+dashboard.profileApproved.welcomeMessage=Welcome to the best of society! Now you can start applying for work on various projects.
+
+dashboard.postlogin.title=We need your consent
+
+dashboard.newTerms.renewText=Dear user freelance.co.uk, <br> Since your last login, we have slightly modified and clarified our General Terms and Conditions, including the Data Policy. If you want to continue to use the freelance.co.uk services, we will need your consent with their wording. The current text of the General Terms and Conditions and the Data Policy can be found at the following links. After confirming your consent, the freelance.co.uk portal will be available to you again in full.
+dashboard.newDataPolicy.renewText=We have updated the Data Policy. Please agree to their current wording.
+dashboard.newTerms.newUserText=Dear freelance.co.uk user, <br> To use the freelance.co.uk service, we will need your consent to the wording of the General Terms and Conditions and the Data Policy. You can find their current version at the following links.
+dashboard.newDataPolicy.newUserText=After confirming your agreement with the wording of the General Terms and Conditions and the Data Policy, the freelance.co.uk portal will be available to you in full.
+dashboard.newsletter.text=We would like to inform you about news, events and special offers. You can revoke your consent to receive the Newsletter at any time in your <b>My Account</b> settings.
+
+dashboard.dataPolicy=Data Policy
+dashboard.newsletter=Newsletter
+dashboard.terms=General Terms and Conditions
+
+dashboard.home=Overview
+dashboard.dashboard=Dashboard
+dashboard.skillsAndCompetences=Skills
+
+dashboard.editProfile=Edit profile
+dashboard.edit=Edit
+dashboard.seeAll=More
+
+dashboard.seeAllSearchAgents=All search agents
+dashboard.activeSearchAgents=Active search agents
+dashboard.noSearchAgents=Create search agents and get informed about suitable offers.
+dashboard.myApplications=Offers submitted
+dashboard.myApplicationsReceived=Offers received
+dashboard.recentMarklist=Recently favorites
+dashboard.reccommendedProjects=Recommended projects
+dashboard.noReccommendedProjects=If you fill in more information in your profile, we will be able to offer you suitable projects.
+
+dashboard.companyProfile=Company profile
+dashboard.recommendedProfiles=Recommended profiles
+dashboard.noRecommendedProfiles=Unfortunately, we are currently unable to recommend any profiles to you.
+dashboard.branches=Fields
+dashboard.skills=Skills
+dashboard.availability=Availability
+dashboard.travelling=Willingness to travel
+dashboard.applications=Received offers
+dashboard.myJobOffers=Published projects
+
+dashboard.mySubscriptions=My membership
+dashboard.mySubscriptions.days=Days
+dashboard.mySubscriptions.durationYear=Year
+dashboard.mySubscriptions.validFrom=Active from
+dashboard.mySubscriptions.validTo=Active to
+dashboard.mySubscriptions.price=Price
+dashboard.mySubscriptions.monthly=Month
+dashboard.mySubscriptions.more=My membership
+dashboard.mySubscriptions.upgrade=Please <a href="{0}" target="_self">upgrade now</a>.
+
+dashboard.subscription.tarif=Membership
+dashboard.subscription.noSubscription=You are using a Basic membership.
+dashboard.subscription.yourSubscription=You have an active <b>{0}</b> membership.
+dashboard.subscription.premium=You have an active <b>Premium</b> membership.
+dashboard.subscription.premiumTrial=You have an active <b>Premium</b> membership.
+dashboard.subscription.upgradeLink=<a href="{0}" target="_self">Upgrade to Premium</a> and get many benefits.
+
+dashboard.contactsQuota.available=Available contacts: {0}
+dashboard.contactsQuota.exhausted=Available contacts exhausted
+dashboard.contactsQuota.upgrade=Buy subscription
+dashboard.contactsQuota.exhausted.upgrade=You have viewed the maximum number of contacts. If you are interested in more contacts, please contact us at info@freelance.co.uk.
+dashboard.contactsQuota.exhausted.noRenewalInfo=You have viewed the maximum number of contacts available in 30 days. \
+<br> If you are interested in more contacts, please contact us at <a href="mailto:info@freelance.co.uk">info@freelance.co.uk</a>.
+dashboard.contactsQuota.exhausted.nextRenewalInfo=
+dashboard.contactsQuota.exhausted.nextAvailableInfo=
+
+dashboard.applications.available=Available offers: {0}
+dashboard.applications.exhausted=Offer limit exhausted
+dashboard.offersQuota.exhausted.nextRenewalInfo=Offer limit exhausted.
+dashboard.offersQuota.exhausted.nextAvailableInfo=Offer limit exhausted.
+dashboard.offersQuota.exhausted.noRenewalInfo=Offer limit exhausted. Purchase a PREMIUM membership for more offers.
+
+dashboard.projectProposalQuota.available=Available project offers: {0}
+dashboard.projectProposalQuota.exhausted=Project offers exhausted!
+dashboard.projectProposalQuota.exhausted.nextRenewalInfo=Available offers exhausted. Purchase a PREMIUM membership for more offers.
+dashboard.projectProposalQuota.exhausted.nextAvailableInfo=Available offers exhausted. Purchase a PREMIUM membership for more offers.
+dashboard.projectProposalQuota.exhausted.noRenewalInfo=Available offers exhausted. Purchase a PREMIUM membership for more offers.
+
+dashboard.welcomeMessage={0}
+dashboard.references.unfilled=Your profile is incomplete. Please add information to your references.
+
+dashboard.subscription.expiring=Your Premium membership expires {0}.
+dashboard.subscription.expiring.buy=Renew membership
+dashboard.serviceProvider.buyPremium.imagePath=app/images/banners/en/banner_buy-premium-fl.png
+dashboard.serviceProvider.buyPremiumPromotion.imagePath=app/images/banners/en/banner_buy-premium-fl-promo.jpeg
+
+# USER
+users.login.title=Login
+users.forgotPassword=Change password
+users.register=Register for free
+users.register.text=Did we convince you? So register straight away for free.
+users.register.company=For companies
+users.register.company.text=Are you looking for only the best in the industry for your projects? <br/> \
+Register for free on freelance.co.uk
+users.fields.email=Email address
+users.fields.password=Password
+users.fields.repeatPassword=Repeat password
+users.fields.terms=I agree to the <a href="{0}" target="_blank">Terms and Conditions</a>
+users.fields.dataSecurity=I agree to the <a href="{0}" target="_blank">Data Policy</a>
+users.fields.termsAndDataSecurity=I agree to the <a href="{0}" target="_blank">Terms and Conditions</a> <br> and the <a href="{1}" target="_blank">Data Policy</a>
+users.fields.newsletter=I would like to receive the Newsletter
+users.fields.register=Register now.
+users.fields.requiredFieldsInfo=Please fill in all fields marked with *. Consents may be revoked at any time.
+users.fields.companyType=Company type
+users.fields.companyType.recruiting=Recruitment agency
+users.fields.companyType.customer=End Customer
+
+users.button.login=Login
+users.button.register=Register for free
+users.button.back=Back
+users.logindlg.title=freelance.co.uk - Login
+users.logindlg.info=Register or continue by logging in.
+users.logindlg.message.authError=Incorrect data. Please check your username and password.
+users.logindlg.message.authSuccess=Completed registration on freelance.co.uk.
+users.logindlg.message.authInactive=In order to complete your registration, please click on the link in the message we sent to your email address.
+users.logindlg.username=Email address
+users.logindlg.password=Password
+users.logindlg.loginbtn=Log in
+users.logindlg.acountActivated=We have activated your account.
+users.logindlg.register=Register now
+users.logindlg.passwordForgotten=Forgot your password?
+users.headerLogin.title=Login
+users.logout.message=Logout was successful.
+users.activation.success=We have successfully activated your account. You can now log in.
+users.activation.error=We have not been able to activate your account yet. Please check the activation code.
+users.activation.expiredError=Your activation code is no longer valid. The activation link is valid for 72 hours, after which time your account was automatically deleted. Please make a new registration.
+users.activation.alreadyActiveError=Your account has already been successfully activated. You can now log in.
+users.registration.action=Register
+users.registration.title=Become part of the freelancer network "of tomorrow"!
+users.registration.registeras=Register as
+users.registration.register=Register for free
+users.registration.registeras.corporation=Company
+users.registration.registeras.serviceprovider=Freelancer
+users.registration.promoReqMessage=<h2>Become part of the freelancer network "of tomorrow"</h2>
+
+# Registration email freelancer/corporation
+users.registration.mail.subjectProvider=Welcome on freelance.co.uk & GET YOUR GIFT!
+users.registration.mail.subjectCorporation=Welcome on freelance.co.uk & GET YOUR GIFT!
+users.registration.mail.messageCorporation=Welcome to freelance.co.uk<br><br> To access our expert network, please activate your account.<br>\
+After activating your account you need to complete your company profile to successfully finish registration. <br>\
+As a welcome gift for a well and completely created profile, you will receive the premium membership completely free of charge.<br>\
+<br>\
+<a href="{0}">&gt;&gt; CREATE PROFILE &gt;&gt;</a><br><br>\
+We wish you a lot of success with our community of professionals and with your projects. <br><br>\
+Best Regards <br> \
+Your freelance.co.uk team\
+<br> \
+<br> \
+<i>PS: If you have not registered on www.freelance.co.uk, please do not click on the activation link. We will automatically delete your email address from our system within 72 hours of receiving this message.</i>
+users.registration.mail.messageServiceProvider=Welcome on freelance.co.uk!<br>\
+<br> \
+Within next few minutes you can easily create your freelancer profile.<br>\
+As a welcome gift for a well and completely created profile, you will receive the premium membership completely free of charge:<br>\
+<ol>\
+<li>full access to all projects</li>\
+<li>unlimited acquisition of projects (find jobs and send applications)</li>\
+<li>view full contact details of companies offering projects</li>\
+<li>use search agents and more</li>\
+</ol>\
+<a href="{0}"> &gt;&gt; CREATE PROFILE &gt;&gt;</a> \
+<br> \
+<br> \
+Best regards <br> \
+Your freelance.co.uk team<br> \
+<br> \
+<br> \
+<i>PS: If you have not registered on www.freelance.co.uk, please do not click on the activation link. We will automatically delete your email address from our system within 72 hours of receiving this message.</i>
+
+
+users.errors.email.exists=This email address already exists.
+users.errors.password.mismatch=The passwords you entered are not the same.
+users.errors.password.tooShort=Password is short, use at least 6 characters
+users.errors.email.invalid=Invalid email address
+users.errors.terms.notAccepted=Please confirm your agreement to the Data Policy and the Terms and Conditions.
+users.error.cannotOverwriteUserData=We cannot perform this action, the profile already exists.
+users.error.unableToRegister=Sorry, we are unable to process your registration right now. Please try again later.
+users.success.registration.text=Just the last step to successfully complete your registration.<br> We''ve sent an email to <b>{0}</b>. <br> Click on the link in the message <br> and it is done!
+
+users.userSettings=User information
+users.userSettings.changePicture=Upload a photo
+users.userSettings.removePicture=Delete the photo
+users.userSettings.gender=Gender
+users.userSettings.gender.male=Mr.
+users.userSettings.gender.female=Ms.
+users.userSettings.firstname=Name
+users.userSettings.lastname=Last Name
+users.userSettings.email=Email address
+users.userSettings.invitationState=Status
+users.userSettings.password=Change password
+users.userSettings.phone=Phone number
+users.userSettings.masterUser=Master user
+users.userSettings.update.error.login=You must log in to change settings.
+users.userSettings.save.success=You have saved user information
+users.userSettings.maxPhotoSizeHint=Please upload a jpg / jpeg photo with a maximum size of 10 MB.
+users.userDataAndRegister.email=Email address
+users.userDataAndRegister.emailForRegistration=Email address for registration
+users.userDataAndRegister.registerNewUser=Create a new account
+users.userSettings.acceptTerms=Yes, I agree:
+users.userSettings.acceptDatePolicy=Yes, I agree:
+users.userSettings.acceptNewsletter=I want to receive
+
+users.passwordReset=Change password
+users.passwordReset.current=Password
+users.passwordReset.password=New password
+users.passwordReset.password2=New password (repeat)
+users.passwordReset.reset=Save
+users.passwordReset.reset.success=You have successfully changed your password
+users.passwordReset.reset.error=Failed to change password.
+users.passwordReset.reset.error.mismatch=The passwords you entered are not the same.
+users.passwordReset.reset.error.invalidPassword=Your password is incorrect.
+
+users.passwordCreate=Create password
+
+users.consents=Consents
+users.consents.agb=General Terms and Conditions
+users.consents.dataSecurity=Data Policy
+users.consents.status=Status
+users.consents.agreed=Accepted
+users.consents.rejected=Not accepted
+users.consents.saved=Saved successfully
+users.consents.newsletter=Newsletter
+users.consents.reject=Revoke
+users.consents.approve=Accept
+users.consents.hint=Note: You can unsubscribe at any time. See <a target="_new" href="{0}">Data Policy</a> for more information.
+
+users.consents.unsubscribeNewsletter.title=Newsletter
+users.consents.unsubscribeNewsletter.message=You have unsubscribed from the Newsletter.
+users.consents.unsubscribeNewsletter.newsletterRevoked=You have already unsubscribed from the Newsletter.
+users.consents.unsubscribeNewsletter.invalidToken=Your link is no longer valid.
+
+users.consents.rejectionDialog.title=Unsubscribe from Terms of Use
+users.consents.rejectionDialog.message=Confirming this step will immediately terminate your membership and delete your profile. You will be logged out and the entire profile will be deleted. Use of freelance.co.uk will be possible only after a new registration.
+users.consents.rejectionDialog.cancel=cancel action
+users.consents.rejectionDialog.deleteUser=delete account
+
+users.deleteUserDialog.title=Delete freelance.co.uk account
+users.deleteUserDialog.cancel=cancel action
+users.deleteUserDialog.deleteUser=delete
+users.deleteUserDialog.message=Are you sure you want to delete your freelance.co.uk account? <br> <br> After confirming this step, your freelance.co.uk account will be deleted. Once you delete an account, it''s no longer possible to restore its history.
+users.deleteUserDialog.deleteSuccessMessage=Your account has been deleted.
+users.deleteUserDialog.deleteErrorMessage=Sorry, automatic account deletion failed. Please contact us at info@freelance.co.uk with a request to delete your account.
+
+users.deleteUserDialog.deleteError.systemNotificationEmail.subject=Error occured in user deletion
+users.deleteUserDialog.deleteError.systemNotificationEmail.message=There was an error in user deletion. Please check the administration and solve it manually.
+
+# EMAIL: Account deletion confirmation
+users.deletionAnnouncementEmail.subject=Confirm account deletion
+users.deletionAnnouncementEmail.text=Hello, <br/> <br/> \
+Your account has been successfully deleted. <br/> \
+If you decide to use freelance.co.uk again, please register again. <br/> \
+<br/> \
+We are sorry you are leaving ...<br /><br />\
+Best regards, <br /> \
+Your freelance.co.uk team
+
+users.passwordForgotton.text=Enter your email address and request a new password. <br> \
+If you do not receive a message from us within a few minutes, \
+please check your spam folder.
+users.passwordForgotton.email=Email
+users.passwordForgotton.requestbtn=Ask for a password
+users.passwordForgotton.success=We have sent you a link to {0} \
+Follow the instructions in this email to set a new password.
+users.passwordForgotton.error=An error occurred somewhere, please try again later.
+users.passwordForgotton.error.invalidEmail=Sorry, this email address is not registered with us.
+
+# EMAIL: Password reset email
+users.passwordForgotton.email.subject=freelance.co.uk | You have requested a password reset
+users.passwordForgotton.email.text=Hello, <br/> <br/> \
+You have requested a new password for your account at freelance.co.uk. <br/> \
+Click this link to reset your password: <br/> \
+<a href="{0}">{0}</a> <br/> <br/> \
+Your username is: {1} <br/> \
+If you did not request a password change, please ignore this email. <br/> \
+Your previous password remains active and your data is still protected. <br/> \
+<br/> \
+Best regards, <br/> \
+Your freelance.co.uk team
+
+
+users.forgotPasswordReset.caption=Set a new password
+users.forgotPasswordReset.password=New password
+users.forgotPasswordReset.password2=New password (repeat)
+users.forgotPasswordReset.save=Save new password
+users.forgotPasswordReset.success=We have saved your new password. You can now sign in to your account using your email address.
+
+users.childUserForm.addSales=Add a contact person
+users.childUserForm.editSales=Edit contact person
+users.childUserForm.gender=Gender
+users.childUserForm.genderMale=Mr.
+users.childUserForm.genderFemale=Ms.
+users.childUserForm.firstname=Name
+users.childUserForm.lastname=Last Name
+users.childUserForm.phone=Phone number
+users.childUserForm.email=Email address
+users.childUserForm.save.success=You have added a contact person
+users.childUserForm.update.success=You have changed the contact person
+users.childUserForm.selectContactData=Select from company administrators
+users.childUserForm.changePicture=Upload photo
+users.childUserForm.save=Save
+users.childUserForm.delete=You have deleted a contact person.
+users.childUserForm.info=Create accounts for your employees on freelance.co.uk and manage their profiles centrally.
+users.childUserForm.sendCoworkerInvitation=Invite an employee and activate their profile within your company.
+
+# EMAIL: Coworker invitation
+users.childUserForm.coworkerInvitationEmail.subject=Invitation for employees
+users.childUserForm.coworkerInvitationEmail.text=\
+Hello, <br/> <br/> \
+We have added {2} to <a href="freelance.co.uk">freelance.co.uk</a> as the contact person for our company. <br/> \
+Please go to the following link to create a password for your new account: <br/> \
+<a href="{0}">{0}</a> <br/> <br/> \
+Your username is: {1} <br/> \
+<br/> \
+Sincerely, <br/> \
+{3}
+users.childUserForm.error.insertingSameEmailAddress=This email address already exists
+
+# EMAIL: Company invitation email
+users.newCompanyWelcomeEmail.subject=Completed registration on freelance.co.uk
+# important! the html must contain links inside href text. the tags are stripped for messenger message
+users.newCompanyWelcomeEmail.text=Congratulations! You have now successfully completed your registration on freelance.co.uk.<br />\
+<br />\
+From now on, you can directly access a vast community of freelancers through our marketplace.<br />\
+It doesn't matter if you are looking for an IT specialist, a sales representative, or any other type of professional, freelance.co.uk offers a diverse community of professionals in which various fields of expertise are represented. <br />\
+<br />\
+What are your next steps? <br />\
+<br />\
+If you haven’t already done it, please <a href="{2}">fill out your company profile</a> carefully. This is the best way to present your business and successfully connect with the best matching freelancers for you. <br /> \
+<br />\
+After this step, you are all set. You can then create a project via <a href="{0}">enter a project request</a> or <a href="{1}">search directly</a> for experts.\
+We will inform you by email if freelancers apply for your project and will sent you a link to the profile.\
+You can also search directly through our freelancer community to find the perfect match for your project. Go to our marketplace where you can search by different filters such as skills, availability, industry etc.\
+<br /> \
+Best regards <br> \
+Your freelance.co.uk team
+
+# EMAIL: Company wizard not finished reminder
+users.wizardCompletionReminderMail.corporation.subject=Complete your registration on freelance.co.uk
+users.wizardCompletionReminderMail.corporation.message=Unfortunately, your company profile has not been completed yet. \
+Please take a moment to fill in the mandatory fields of your company profile.\
+<br>\
+<br>\
+<a href="{0}">&gt;&gt; COMPLETE PROFILE AND COMPLETE REGISTRATION &gt;&gt;</a> <br> \
+<br> \
+<br> \
+Best regards <br> \
+Your freelance.co.uk team
+
+# EMAIL: Profile wizard not finished reminder
+users.wizardCompletionReminderMail.serviceProvider.subject=Complete your registration on freelance.co.uk
+users.wizardCompletionReminderMail.serviceProvider.message=Hello, <br><br>\
+We noticed that you have registered on our freelance.co.uk marketplace but have not completed your profile yet. \
+By filling in the missing data, you will finish the registration process and, in addition, you will get a PREMIUM membership for free.<br> \
+<p>Benefits of a freelancer PREMIUM account: \
+<ul> \
+    <li>Direct access to all open projects on our marketplace</li> \
+    <li>Unlimited project applications</li> \
+    <li>All details of the project provider including direct access via direct message</li>\
+</ul> </p> \
+<br> \
+<a href="{0}">&gt;&gt; COMPLETE REGISTRATION &gt;&gt;</a> <br> \
+<br> \
+<br> \
+Best regards <br> \
+Your freelance.co.uk team
+
+# EMAIL: No projects reminder
+users.corporationNoProjectsReminderMail.title=Would you like to submit a new project request on freelance.co.uk?
+users.corporationNoProjectsReminderMail.message=It has been a week since you''ve registered and gained access to hundreds of experts. Unfortunately you have not posted any projects yet.<br>\
+<br> \
+Please take the time to <a href="{0}/projects/add-project">submit a project request</a> and define your requirements as detailed as possible. This will ensure that you get the best available freelancer in our community. <br> \
+<br> \
+<a href="{0}/projects/add-project">&gt;&gt; POST PROJECT &gt;&gt;</a> <br> \
+<br> \
+Do you need help posting a project? Please contact us at <a href="mailto:{1}">{1}</a>. <br> \
+<br> \
+Best regards <br> \
+Your freelance.co.uk team
+
+# EMAIL: Freelancer update availability notification
+users.freelancerAvailabilityUpdateEmail.subject=Please update your availability on freelance.co.uk
+users.freelancerAvailabilityUpdateEmail.message=Hello, <br><br>\
+  We keep our community of freelancers up to date to make it easier for companies to find the right expert for their projects.  <br> <br> \
+  <b>Updating your availability will strongly increase your chances of getting contacted by employers and will increase your visibility.</b> \
+  If you are currently not available, please update your status to “unavailable”, this will ensure that you will not get contacted by searching employers.  
+users.freelancerAvailabilityUpdateEmail.availability.fulltime=Available
+users.freelancerAvailabilityUpdateEmail.availability.parttime=Partially available
+users.freelancerAvailabilityUpdateEmail.availability.nextdate=Available from ...
+users.freelancerAvailabilityUpdateEmail.availability.unavailable=Unavailable
+users.freelancerAvailabilityUpdateEmail.unsubscribeMessage=This freelance.co.uk notification was sent automatically to {0}. You can unsubscribe <a href="{1}">here</a>.
+
+users.emailSettings.unsubscribe.success=Email notification settings for your account have been updated.
+users.emailSettings.unsubscribe.error=An error occurred while setting up email notifications. Please try again later or contact us at info@freelance.co.uk.
+
+# COMPANY
+companies.rights=Rights
+companies.rights.profileViewable=Active company profile
+companies.rights.profileViewableHint=Would you like to present your company profile here? Please contact us at info@freelance.co.uk.
+
+companies.companyForm.companyInformation=Your company
+companies.companyForm.changeLogo=Upload logo
+companies.companyForm.changeLogoShort=Upload
+companies.legalForm=Legal form
+companies.legalForm.ek=Self-employed
+companies.legalForm.gbr=o.p.s.
+companies.legalForm.ohg=v.o.s.
+companies.legalForm.partg=foundation or endowment fund
+companies.legalForm.kg=k.s.
+companies.legalForm.ev=national enterprise
+companies.legalForm.gmbh=s.r.o.
+companies.legalForm.gmbhcokg=state-owned enterprise
+companies.legalForm.kgaa=public legal entity (state, region, municipality, contributory organization)
+companies.legalForm.eg=public legal entity (university, public research organization)
+companies.legalForm.ag=a.s.
+companies.legalForm.ltd=community of unit owners
+companies.legalForm.infounding=in creation
+companies.legalForm.coop=cooperative
+companies.legalForm.ug=church or religious society
+companies.revenues=Annual turnover
+companies.revenue=Annual turnover
+companies.revenues.year=Year
+companies.revenues.amount=Turnover (in millions of GBP)
+companies.employees=Number of employees
+companies.employees.year=Year
+companies.employees.number=Number of employees
+companies.industries=Industries
+companies.industries.pleaseSelectIndustry=Please select a industry
+companies.skills=Areas of interest
+companies.skills.pleaseSelect=Please add an area of interest
+companies.name=Company name
+companies.ceo=Company management
+companies.ceoTitle=Title
+companies.ceoGender=Gender
+companies.ceoFirstname=First Name
+companies.ceoLastname=Last Name
+companies.address=Street / House number
+companies.profileSummaryAddress=Address
+companies.email=Company email address
+companies.phone=Company phone
+companies.fax=Fax
+companies.web=Web
+companies.zip=Postcode
+companies.city=City
+companies.country=Country
+companies.description=Company description
+companies.descriptionPlaceholder=Briefly describe your company
+companies.yearFounded=Year of foundation
+companies.companyType=Company type
+companies.companyType.recruiting=Recruitment agency
+# consulting should be posted on f.cz
+companies.companyType.consulting=
+companies.companyType.customer=End Customer
+companies.taxId=VAT number
+companies.registrationNumber=Registration Number
+companies.profileCreated=Profile created {0}
+companies.profileUpdated=, last modified by {0} {1}.
+companies.notice=In the company profile you have the opportunity to introduce yourself as an interesting project provider at freelance.co.uk.
+companies.summary.companyInformation=Company Information
+companies.summary.companyDetails=Company Details
+companies.summary.contact=Contact information
+companies.summary.companyLogo=Logo
+companies.connect=Invite
+companies.summary.companyDetails.loginToSeeData=Visible to logged in users only!
+companies.summary.companyDetails.loginToSeeDataLogin=Login
+companies.summary.contact.connectToSeeData=Visible only to users on your network!
+companies.summary.contact.inviteCompanyAndConnect=Invite a company to your network now!
+companies.summary.contact.connectToSeeDataLogin=Login
+companies.summary.description.more=more
+companies.saved.success=You have saved company information
+companies.logo.maxFilesize=Please upload a company logo in jpg / jpeg format with a maximum size of 10 MB.
+
+companies.view.projectsCount={0} Projects online
+companies.view.projects=Projects
+companies.view.contact=Contact
+companies.view.description=Description
+companies.view.contact.ceo=Company Management
+companies.view.contact.employees=Number of employees
+companies.view.contact.industries=Industries
+companies.view.noDescription=Company description not yet available.
+companies.view.information=Company details
+companies.view.companiesBread=Companies
+companies.view.companyProfile=Company Profile
+
+companies.list=Companies
+companies.list.projects=Projects
+companies.list.count=Number of companies found
+companies.list.search=Company Search
+companies.list.more=More companies
+
+companies.industries.notUnique.error=This field has already been entered
+companies.skills.notUnique.error=This area of interest has already been entered
+companies.years.notUnique.error=This year has been added before
+
+companies.newCompaniesSystemNotificationEmail.subject=New registered companies
+companies.newCompaniesSystemNotificationEmail.message=Automatically generated email with a list of newly registered companies.
+companies.newCompaniesSystemNotificationEmail.created=registration date
+companies.newCompaniesSystemNotificationEmail.companyName=companyname
+companies.newCompaniesSystemNotificationEmail.companyNotRegistered=*Not registered yet*
+companies.newCompaniesSystemNotificationEmail.firstname=first name
+companies.newCompaniesSystemNotificationEmail.lastname=last name
+companies.newCompaniesSystemNotificationEmail.lastLogin=last login date
+companies.newCompaniesSystemNotificationEmail.phone=phone
+companies.newCompaniesSystemNotificationEmail.companyPhone=Phone - company
+companies.newCompaniesSystemNotificationEmail.email=email
+companies.newCompaniesSystemNotificationEmail.companyEmail=Email - company
+
+# SKILLS
+skills.skillsSelect.caption=Add skill
+skills.filter.allProfiles=All freelancer profiles
+skills.filter.allProjects=All projects
+skills.filter.categories.showAll=View all categories »
+skills.filter.categories.hideAll=Hide categories «
+
+# REPORTS
+reports.resourcemgr.lastSearch.minutes={0} minutes ago
+reports.resourcemgr.lastSearch.hours={0} hours ago
+reports.resourcemgr.lastSearch.days={0} days ago
+reports.resourcemgr.lastSearch.years={0} years ago
+
+#INVITATION
+invitation.state.pending=Pending
+invitation.state.accepted=Active
+invitation.state.notsent=Not sent yet
+
+
+users.deleteChildUser=Delete users
+users.deleteChildUser.message={0} is an internal employee of your company. \
+If you delete the account, the user will no longer be able to \
+create profiles and ask for experts on freelance.co.uk. All invitations and projects created by {0} and remain accessible to your company.
+users.deleteChildUser.cancel=Cancel
+users.deleteChildUser.detach=Delete
+users.deleteChildUser.success=User deleted.
+
+invitations.detachGeneralConnection=Remove connections
+invitations.detachGeneralConnection.message=By disconnecting from network \
+<ul> <li> Disconnect you from {0} </li> \
+</ul>
+invitations.detachGeneralConnection.cancel=Cancel
+invitations.detachGeneralConnection.detach=Remove
+
+
+#RESOURCES
+resources.employmentStatus.freelancer=Freelancer
+resources.employmentStatus.company=Employer
+resources.employmentStatus.employee=Employee
+resources.employmentStatus.student=Student
+
+resources.editform.add=Create a profile
+resources.editform.edit=Edit profile
+
+resources.editform.edit.availability=Availability and experience
+resources.editform.edit.consultantSummary=Summary
+resources.editform.edit.certificates=Certificates
+resources.editform.edit.languages=Language skills
+resources.editform.edit.projects=Projects
+resources.editform.edit.education=Education
+resources.editform.edit.desiredJobLocation=required work location
+resources.editform.edit.submitProfile=Submit profile
+resources.editform.edit.profileSubmitted=We have successfully accepted your profile.
+resources.editform.edit.profileSubmitted.summary=Thank you for submitting your profile. <br /> After a short verification of all information, we will publish your profile online at freelance.co.uk and you will be able to use it fully. <br /> Current You can track the status of your profile in the <a href="/dashboard">overview of your account</a>.
+
+resources.editform.info.profileDownload=Download {0}
+resources.editform.info=Create a brief profile and present your skills on freelance.co.uk.
+resources.editform.uploadImage=Upload photo
+resources.editform.profileType=Type
+resources.editform.profileType.all=All
+resources.editform.profileType.ez=Freelancer
+resources.editform.validationErrors=We are unable to save your profile yet. Please fill in all required fields.
+resources.editform.skillsUnfilled=Please enter at least one skill.
+resources.editform.languageUndefined=Please enter at least one language.
+
+resources.editform.profileTitle=Profile name
+resources.editform.profileTitle.placeholder=E.g. IT Project Manager or SEO Specialist
+resources.editform.profileTitle.orig=Profile Name (orig.)
+resources.editform.profileId=Profile ID
+resources.editform.profileId.hint=Please enter an internal profile ID
+resources.editform.academicTitle=Title
+resources.editform.profileFirstname=Name
+resources.editform.profileLastname=Last name
+resources.editform.nationality=Nationality
+resources.editform.birth=Date of birth
+resources.editform.cell=Mobile phone
+resources.editform.phone=Phone number
+resources.editform.residence=Required place of work
+resources.editform.residenceCountry=Country
+resources.editform.residenceZip=Postcode
+resources.editform.residenceCity=City
+resources.editform.residenceCounty=Country
+resources.editform.residenceAddress=Street
+resources.editform.residenceAdditionalAddress=Additional address
+resources.editform.radius=Circuit
+resources.editform.radius.km=<{0} km
+resources.editform.email=Email
+resources.editform.web=Web
+resources.editform.skype=Skype
+resources.editform.fax=Fax
+resources.editform.hourRate=Hourly rate
+resources.editform.hourRate.fixed=fixed rate
+resources.editform.availability=Availability
+resources.editform.availability.parttime=Partial availability
+resources.editform.availability.fulltime=Full availability
+resources.editform.availability.nextdate=Available from *
+resources.editform.availability.unavailable=Not available at this time
+resources.editform.travelling=Willingness to travel
+resources.editform.travelling.near=Only in your place of residence
+resources.editform.travelling.200km=Nearby (100 km)
+resources.editform.travelling.national=Within the UK
+resources.editform.travelling.europe=Europe
+resources.editform.travelling.worldwide=Worldwide
+resources.editform.travelling.onrequest=On request
+resources.editform.type=Type
+resources.editform.type.candidate=Candidate
+resources.editform.type.underContract=By contract
+resources.editform.internalScore=Internal evaluation
+resources.editform.computedScore=Profile rating
+resources.editform.summary=Description
+resources.editform.visibility=Visibility
+resources.editform.profileOnline=Online profile
+resources.editform.profileOffline=Offline profile
+resources.editform.addLanguage=Add
+resources.editform.languages=Language skills
+resources.editform.language=Language
+resources.editform.drivingLicenses=Driver Privileges
+resources.editform.drivingLicenses.class=Group Driver''s License {0}
+resources.editform.drivingLicenses.willingnessToTravel=Note on willingness to travel (eg maximum distance from home)
+resources.editform.certificates=Certificates and certifications
+resources.editform.attachCertificate=Upload document
+resources.editform.attachLanguageDocument=Upload document
+resources.editform.certificates.name=Certificates and certifications
+resources.editform.certificates.date=Year
+resources.editform.certificates.country=Country
+resources.editform.skillName=Name
+resources.editform.experince=Experience (in years)
+resources.editform.action=Event
+resources.editform.industryName=Name
+resources.editform.certificate=Certificates
+resources.editform.year=Year
+resources.editform.address=Address
+
+resources.editform.chooseImage=Select a photo
+resources.editform.loadingImage=Loading
+
+resources.editform.addWorkReference=Add work experience - employee
+resources.editform.editWorkReference=Edit work experience - employee
+resources.editform.addFreelanceReference=Add work experience - freelancer
+resources.editform.editFreelanceReference=Edit work experience - freelancer
+resources.editform.addProjectReference=Add project experience
+resources.editform.editProjectReference=Edit project experience
+resources.editform.haveNoReference=I''m just getting started and doesn''t have any references yet.
+resources.editform.references=Work experience
+resources.editform.references.hint=Enter at least one work experience.
+resources.editform.references.addProjectExperience=Add
+resources.editform.references.addFreelancerExperience=Add
+resources.editform.references.addWorkExperience=Add
+resources.editform.projectReferences=Project experience
+
+resources.editform.references.referenceType=Collaboration type
+resources.editform.references.referenceType.freelancerExperience=Freelancer
+resources.editform.references.referenceType.workExperience=Employment
+resources.editform.references.referenceType.projectExperience=One-time project
+
+resources.editform.references.anonymizeCustomer=Hide company name
+resources.editform.references.anonymizeCustomerHint=The name of the project provider will not be displayed. However, your profile may appear in search results related to the client''s name.
+resources.editform.references.function=Position
+resources.editform.references.location=City
+resources.editform.references.country=Country
+resources.editform.references.fromTo=From - To
+resources.editform.references.from=From
+resources.editform.references.to=To
+resources.editform.references.ongoing=Ongoing
+resources.editform.references.customerName=Company name
+resources.editform.references.branch=Company scope
+resources.editform.references.description=Description
+resources.editform.references.qualifications=Qualifications
+resources.editform.references.category.other=Other
+resources.editform.references.addQualification=Add another qualification
+resources.editform.references.cancelEdit.confirmTitle=End experience editing
+resources.editform.references.cancelEdit.confirmMessage=Are you sure you want to finish editing this experience. Unsaved changes will be lost.
+resources.editform.references.cancelEdit.yes=Finish editing
+resources.editform.references.cancelEdit.cancel=Continue editing
+resources.editform.references.skip.link=Skip and enter later >>
+resources.editform.references.skip.confirmTitle=Skip job experience entries
+resources.editform.references.skip.confirmMessage=Are you sure you want to skip the job experience now? Published work experience will help increase the chance of reaching potential clients, who will gain a better overview of your specialization.
+resources.editform.references.skip.yes=Fill in later
+resources.editform.references.skip.cancel=Enter experience
+resources.editform.references.save=Save
+resources.editform.references.close=Cancel
+resources.editform.references.noReferences=No references specified.
+resources.editform.references.hiddenCompany=* hidden name
+resources.editform.references.uploads=Documents
+resources.editform.references.uploadFile=Upload document
+resources.editform.references.maxFilesize=Please upload your documents in pdf, jpg / jpeg, doc / docx or xls / xlsx format with a maximum size of 20 MB.
+
+resources.editform.references.offerReference=Offer reference
+resources.editform.references.title=Project Name
+resources.editform.references.position=Position
+resources.editform.references.company=Company name
+
+resources.editform.addEducation=Education
+resources.editform.addEducationRecord=Add
+resources.editform.addEducationSchool=Add
+resources.editform.addFurtherEducationAndTrainings=Add
+resources.editform.addNonWorkingExperiences=Add
+resources.editform.educations=Education
+resources.editform.educations.schools=Education
+resources.editform.educations.schools.add=Add high school / college
+resources.editform.educations.schools.edit=Edit high school / college
+resources.editform.educations.furtherEducationsAndTrainings=Training and further education
+resources.editform.educations.nonWorkingExperiences=Non-professional experience
+resources.editform.educations.name=Name
+resources.editform.educations.organizationName=Organization
+resources.editform.educations.trainingCompanyName=Educational Society
+resources.editform.educations.practiceCompanyName=Internship company
+resources.editform.educations.schoolName=Name of school / college
+resources.editform.educations.position=Position
+resources.editform.educations.type=Education level
+resources.editform.educations.type.workExperience=Employer
+resources.editform.educations.type.nonWorkExperience=Non-professional
+resources.editform.educations.type.professionalEducation=Proffessional education
+resources.editform.educations.type.furtherEducation=Training and further education
+resources.editform.educations.type.collegeEducation=College
+resources.editform.educations.type.internship=Internship
+resources.editform.educations.type.schoolEducation=High school
+resources.editform.educations.location=City
+resources.editform.educations.country=Country
+resources.editform.educations.studyCategory=Graduation year
+resources.editform.educations.schoolCategory=Graduation year
+resources.editform.educations.fromTo=From - To
+resources.editform.educations.from=From
+resources.editform.educations.to=To
+resources.editform.educations.description=Description
+resources.editform.educations.uploads=Documents
+resources.editform.educations.save=Save
+resources.editform.educations.close=Cancel
+
+
+resources.editform.datepicker.close=Cancel
+resources.editform.datepicker.today=Today
+resources.editform.datepicker.clear=Delete
+resources.editform.save=Save
+resources.editform.cancel=Cancel
+resources.editform.saveAndSubmit=Save and send
+resources.editform.submit=Submit
+resources.editform.submit.message=In the last step, please send us your profile. <br /> To ensure the quality of the information posted, each profile will undergo a quick review. <br /> We will publish your profile soon and you can start using it in full.
+resources.editform.successfulySaved=Profile change
+resources.editform.successfulySavedButNotResubmitted=Your profile has been saved successfully but has not been resubmitted.
+resources.editform.skillOffers=Skills
+resources.editform.skillOffers.hint=Please provide a maximum of 10 skills and time of relevant experience. Without this information, we will not be able to rank your profile in search results.
+resources.editform.industries=Industries
+resources.editform.actions.offerProfile=Offer profile now
+
+resources.editform.dayRate=Hourly rate
+resources.editform.securityCheck=Security check
+resources.editform.employmentStatus=Current status (professional)
+resources.editform.projectLeadExperience=Project Experience (years)
+resources.editform.projectLeadExperience.50plus=More than 50 years
+resources.editform.workExperienceSince=Total work experience
+resources.editform.workExperienceSince.50plus=More than 50 years
+resources.editform.workPermit=Work permission
+resources.editform.workPermit.eu=CR
+resources.editform.workPermit.ch=EU
+resources.editform.rateWhenAsked=On request
+resources.editform.rateWhenAsked.tooltip=Show "On request" in profile
+resources.editform.projectLeaderGreaterThanTotalExperienceError=The value you entered cannot exceed your total professional experience.
+
+resources.editform.personalSummary=Personal summary
+resources.editform.personalSummary.editInformationMessage=Please do not provide any contact information (name, email, phone, URL), this information will be removed as part of the data quality check.
+resources.editform.personalSummary.skip.confirmTitle=Personal summary is missing
+resources.editform.personalSummary.skip.confirmMessage=Are you sure you don't want to fill out a personal summary? Posting a personal summary can increase your chances of being contacted by potential clients who will get a better understanding of your knowledge.
+resources.editform.personalSummary.skip.yes=Enter it later
+resources.editform.personalSummary.skip.cancel=Set the personal summary
+
+resources.editform.projectSummary=Relevant experience
+resources.editform.competenceSummary=Key skills
+resources.editForm.industries.pleaseSelectIndustry=Please select a scope
+resources.editForm.industries.hint=Please select the fields in which you have gained some experience.
+resources.editform.profileResubmit=Resubmit profile
+resources.editForm.summary.hint=Introduce yourself in your own words and briefly describe your qualifications.
+resources.editForm.summary.noAddressDataInfo=Please do not provide any contact information (name, email, phone, URL), this information will be removed as part of the data quality check.
+
+resources.editform.notEnoughReferences=Please enter at least one item of your work and / or project experience.
+
+resources.editform.uploadingPicture=Photos are being uploaded…
+resources.editform.status=Status
+
+resources.editform.success.contactDataSaved=You have changed your contact information
+resources.editform.success.availabilitySaved=You have changed your availability and experience information
+resources.editform.success.branchesSaved=You have changed your industry experience
+resources.editform.success.certificatesSaved=You have changed your certificates.
+resources.editform.success.consultantSummarySaved=You have changed the summary information
+resources.editform.success.locationSaved=You have changed the required work location
+resources.editform.success.languagesSaved=You have changed your language skills
+resources.editform.error.unableToDeleteSkill=This skill cannot be removed
+resources.editform.error.unableToDeleteIndustry=This scope cannot be deleted
+resources.editform.error.unableToDeleteReference=This reference cannot be deleted
+resources.editform.error.unableToDeleteEducation=This education item cannot be deleted
+resources.editform.error.unableToDeleteCertificate=This certificate cannot be deleted
+resources.editform.error.unableToDeleteLanguage=This language skill cannot be removed
+
+resources.editform.error.unableToSave=Please correct the listed errors.
+
+resources.editform.warning.profileOffline=Your profile is now offline.
+resources.editform.warning.profileOfflineHint=If you want to apply for projects on freelance.co.uk again, change the status of your profile online.
+resources.editform.warning.poorQualityProfile=Your profile is incomplete! To increase the quality of your profile, please add information about your work experience.
+
+resources.scorePopover.identity=Identity
+resources.scorePopover.expertise=Expertise
+resources.scorePopover.trust=Trust
+resources.scorePopover.reputation=Reputation
+
+resources.profilePreview.generalData=General information
+resources.profilePreview.seeMyProfilePreview=View Profile
+resources.profilePreview.sendProjectProposal=Offer project
+resources.profilePreview.showContactData=View contact information
+resources.profilePreview.revealContact=Contact
+resources.profilePreview.cvDownload=Download CV
+resources.profilePreview.contactData=Contact information
+resources.profilePreview.moreQualifications=More…
+resources.profilePreview.nationality=Nationality
+resources.profilePreview.birthAt=Born
+resources.profilePreview.qualifications.years=Years of experience: {0}
+resources.profilePreview.educations.schools=Education
+resources.profilePreview.certificates=Certificates
+resources.profilePreview.languages=Language skills
+resources.profilePreview.drivingLicenses=Driving Privileges
+resources.profilePreview.availability=Availability
+resources.profilePreview.lastUpdate=Last updated
+resources.profilePreview.skills=Skills
+resources.profilePreview.travel=Willingness to travel
+resources.profilePreview.score=Ratings
+resources.profilePreview.rememberCandidate=Add profile to favorites
+resources.profilePreview.forgetCandidate=Remove profile from favorites
+resources.profilePreview.gotoCompanyProfile=View company profile
+resources.profilePreview.summary=Note
+resources.profilePreview.none=Not specified
+resources.profilePreview.location=Location
+resources.profilePreview.travelling=Willingness to travel
+resources.profilePreview.projectLeadExperience=Project Experience (years)
+resources.profilePreview.experience=Work experience
+resources.profilePreview.workExperienceSince=Total work experience
+resources.profilePreview.workPermit=Work permission
+resources.profilePreview.skillOffers=Skills
+resources.profilePreview.personalSummary=Personal performance
+resources.profilePreview.projectSummary=Relevant experience
+resources.profilePreview.competenceSummary=Key skills
+resources.profilePreview.workReference=employee
+resources.profilePreview.freelancerReference=freelancer
+resources.profilePreview.references=Reference
+resources.profilePreview.references.description=Summary
+resources.profilePreview.references.function=Position
+resources.profilePreview.references.industry=Company scope
+resources.profilePreview.references.categories=Qualifications
+resources.profilePreview.projectReference=project
+resources.profilePreview.employmentStatus=Professional status
+resources.profilePreview.rateWhenAsked=On request
+resources.profilePreview.updateDate=updated
+resources.profilePreview.availability.notVisible=On request
+
+resources.profilePreview.phone=Mobile phone
+resources.profilePreview.fax=Fax
+resources.profilePreview.landline=Telephone number
+resources.profilePreview.email=Email
+resources.profilePreview.website=Web
+resources.profilePreview.skype=Skype
+resources.profilePreview.skillsAndCompetences=Skills
+resources.profilePreview.consultantDescription=Description
+resources.profilePreview.industries=Scopes
+resources.profilePreview.name=Name
+
+resources.profilePreview.references.previous=Previous
+resources.profilePreview.references.next=Next
+
+resources.profilePreview.remainingQuota.one=You still have {0} available contact information views.
+resources.profilePreview.remainingQuota.few=You still have {0} available contact information views.
+resources.profilePreview.remainingQuota.many=You still have {0} available contact information views.
+resources.profilePreview.increaseQuota=To increase the number of contacts displayed, <a href="{0}" target="_self">purchase a subscription now</a>.
+resources.profilePreview.quotaExhausted=You have reached the maximum number of contacts displayed.
+resources.profilePreview.upgradeToGetMore=You can contact a freelancer for free with a specific project. Are you interested in direct contact? We offer the possibility of purchasing several packages of contacts, ask for a specific number by e-mail: info@freelance.co.uk.
+resources.profilePreview.availabilityNotVisible=Members only
+resources.profilePreview.personalData=Personal data
+resources.profilePreview.register=Register
+# visible for silver
+resources.profilePreview.showContactDataTeaser=Contact information is only visible to members.
+resources.profilePreview.nameTeaser=Name is only visible to members.
+resources.profilePreview.visibleForRegistered=Members only.
+resources.profilePreview.visibleForPremium=only for freelance.co.uk members
+resources.profilePreview.fieldValueTeaser=members only
+# visible for registered
+resources.profilePreview.referencesTeaser=You must register to view recommendations.
+resources.profilePreview.referenceTeaser.one={0} employment. To view, you must first register.
+resources.profilePreview.referenceTeaser.few={0} employment. To view, you must first register.
+resources.profilePreview.referenceTeaser.many={0} employment relationships. To view, you must first register.
+resources.profilePreview.educationsTeaser.one={0} item. To view completed high schools and universities, you must first register.
+resources.profilePreview.educationsTeaser.few={0} items. To view completed high schools and universities, you must first register.
+resources.profilePreview.educationsTeaser.many={0} items. To view completed high schools and universities, you must first register.
+resources.profilePreview.projectSummaryTeaser=You must register to view the experience.
+resources.profilePreview.contactDataTeaser=Contact details are available only for freelance.co.uk members
+resources.profilePreview.contactDataTeaserButton=Register
+resources.profilePreview.contactData.forPremiumUsers.modal=<p> You can contact Freelancer for a specific project for free. </p> <p> Are you interested in direct contact? </p> <p class="text-center"> <a class="btn btn-success" href="/subscriptions/create-subscription/PREMIUM">Upgrade membership</a> </p>
+resources.profilePreview.cvDownload.forPremiumUsers.modal=<p>The Download CV feature is available only for companies with PREMIUM membership.</p><p class="text-center"><a class="btn btn-success" href="/subscriptions/create-subscription/PREMIUM">Upgrade membership</a></p>
+resources.profilePreview.proposalSend.limitReached.modal=<p> The limit of the number of project offers has been reached. </p> <p> Upgrade to Premium membership for more offers. </p> <p class="text-center"> < a class="btn btn-success" href="/subscriptions/create-subscription/PREMIUM">Upgrade membership</a> </p>
+
+resources.profilePreviewBuySubscriptionBox.onlyForSubscribing={0} are available only for freelance.co.uk members
+resources.profilePreviewBuySubscriptionBox.buySubscription=Get a membership
+resources.profilePreviewBuySubscriptionBox.subscriptionInfo=Only membership companies can access contact information.
+resources.profilePreview.verified=Verified profile
+
+resources.confReferences.profile=Freelancer profile
+resources.confReferences.confirmReferenceTitle=Reference
+resources.confReferences.confirmReference=Verify this reference
+
+resources.confReferences.notVerified.title=Reference verification request
+resources.confReferences.notVerified.tooltip=Have this reference verified by your employer / client.
+
+resources.confReferences.pending.title=Referrence validation is waiting for confirmation by employer / client
+resources.confReferences.pending.tooltip=You have submitted a reference verification request.
+resources.confReferences.pending.mainMessage=Request sent on {0}.
+resources.confReferences.pending.secondMessage=You can revoke and resubmit.
+
+resources.confReferences.verified.title=Reference was successfully verified
+resources.confReferences.verified.tooltip=This reference has been successfully verified.
+resources.confReferences.verified.andCommented=Comment from employer / client
+resources.confReferences.verified.message=Reference verified by 0 0}.
+
+resources.confReferences.email=Email
+resources.confReferences.name=Name
+resources.confReferences.anonymizeName=Hidden name
+resources.confReferences.company=Company
+resources.confReferences.city=City
+resources.confReferences.comment=Comment (max. 500 characters)
+resources.confReferences.present=now
+
+resources.confReferences.commentAbout={0} o {1}, {2}
+resources.confReferences.commentNoFunction={0}, {1}
+
+resources.editform.references.anonymizeName=Hidden name
+
+resources.confReferences.dataSaved=You have saved your confirmation. Thank you!
+resources.confReferences.invalidToken=Your link is no longer valid.
+resources.confReferences.feedbackSent=We have received your verification.
+resources.confReferences.confirmCancelTitle=Revoke request
+resources.confReferences.confirmCancel=Are you sure you want to revoke your reference verification request?
+
+resources.confReferences.refReadOnlyMessage =
+resources.confReferences.refConfEmailInfo=Send your employer / client an email asking you to verify this reference.
+
+resources.confReferences.info=Please verify this reference. You can also add meaning to your confirmation with an optional personal statement.
+resources.confReferences.info.bottom=We use and display the entered data only for reference verification purposes.
+
+
+
+
+# EMAIL: Reference confirmation for company
+resources.confReferencesCompany.emailTitle=Reference verified successfully.
+resources.confReferencesCompany.email.hello=Hello
+resources.confReferencesCompany.email.subject=You have confirmed a reference for user {0} on freelance.co.uk
+resources.confReferencesCompany.email.referenceCompany=Company: {0}, {1}
+resources.confReferencesCompany.email.userPosition=Position: {1}
+resources.confReferencesCompany.email.text=We will save and the provided data only in connection with this confirmed work reference on the freelance.co.uk marketplace.<br/> ou can revoke your consent at any time without providing any reasons at info@freelance.co.uk.
+resources.confReferencesCompany.email.ending=Best regards, <br/> Your freelance.co.uk team
+
+# EMAIL: Reference confirmed notification for freelancer
+resources.confReferencesConsultant.emailTitle=Your reference has been verified.
+resources.confReferenceReceived.email.hello=Hello
+resources.confReferenceReceived.email.subject=Congratulations, you have just received a new confirmation of a previous work reference in your freelance.co.uk profile.
+resources.confReferenceReceived.email.text=Your employer / client has verified the following reference:
+resources.confReferenceReceived.email.referenceCompany=Company: {0}
+resources.confReferenceReceived.email.userPosition=Position: {1}
+resources.confReferenceReceived.email.ending=Best regards, <br/> Your freelance.co.uk team
+
+# EMAIL: Reference verification request email
+resources.confReferences.emailTitle=Reference verification request for {0}
+resources.referenceVerification.email.hello=Hello
+resources.referenceVerification.email.text=I created an expert profile on the freelancer marketplace freelance.co.uk. Could you please verify this reference?
+resources.referenceVerification.email.link=Click on the link to view all the information listed and please confirm if all information provided concerning the work reference is correct: <br /> <a href="{0}">{0}</a>
+resources.referenceVerification.email.referenceCompany=Company: {0}, {1}
+resources.referenceVerification.email.userPosition=Position: {1}
+resources.referenceVerification.email.ending=Sincerely, <br/> {0}
+
+resources.confReferences.verifiedReference=Experience confirmed by employer / client.
+resources.confReferences.feedback=Comments provided by employer / client.
+
+resources.confReferences.noReferences=no customer references yet.
+
+# EMAIL: Profile released email
+resources.profileReleased.email.subject=Your profile on freelance.co.uk is visible!
+resources.profileReleased.email.title=Congratulations!<br /><br />\
+You are now listed as a freelancer in our freelance.co.uk community.
+resources.profileReleased.email.message=<p style="text-align: justify;">Remember to keep your profile up to date as your future clients will have a better idea of your experience and skills. </p> \
+<p> <b>Make the most of your Premium account!</b> </p> \
+<p>Benefits of a freelancer PREMIUM account: \
+<ul> \
+    <li>Direct access to all open projects on our marketplace</li> \
+    <li>Unlimited project applications</li> \
+    <li>All details of the project provider including direct access via direct message</li>\
+</ul> </p> \
+<p>You can now start networking or win your next project by visiting the freelance.co.uk marketplace.</p>\
+<br /> \
+Best regards<br> \
+Your freelance.co.uk team
+
+resources.profileReleased.email.bannerAlt=You have a Premium account!
+resources.profileWithProjectsReleased.email.subject=Your profile is visible!
+resources.profileWithProjectsReleased.email.title=Congratulations!<br /><br />\
+You are now listed as a freelancer in our freelance.co.uk community.
+resources.profileWithProjectsReleased.email.message=<p style="text-align: justify;">Remember to keep your profile up to date as your future clients will have a better idea of your experience and skills. </p> \
+<p> <b>Make the most of your Premium account!</b> </p> \
+<p>Benefits of a freelancer PREMIUM account: \
+<ul> \
+    <li>Direct access to all open projects on our marketplace</li> \
+    <li>Unlimited project applications</li> \
+    <li>All details of the project provider including direct access via direct message</li>\
+</ul> </p> \
+<p>You can now start networking or win your next project by visiting the freelance.co.uk marketplace.</p>
+
+resources.profileWithProjectsReleased.email.projectSuggestionTitle=Your profile is suitable for entering new projects:
+resources.profileWithProjectsReleased.email.searchagentInfo=From these results we have prepared a search agent for you!
+resources.profileWithProjectsReleased.email.searchagentLink=Edit Agent
+
+# EMAIL: Profile rejected
+resources.profileRejected.email.subject=Your profile on freelance.co.uk is offline
+resources.profileRejected.email.defaultMessage=Thank you for registering and creating a freelancer profile. <br> \
+<br> \
+In order to find the best projects and employers for you it is critical that your profile meets a minimum of quality criterias. \
+Please fill in the missing information in your profile and complete all relevant information. <br> \
+<br> \
+<br> \
+Thank you for updating your profile. <br> \
+<br> \
+Best regards<br> \
+Your freelance.co.uk team
+
+resources.list.noResources=You have not created any resources for your company yet.
+
+resources.list.filter=Filtering:
+resources.list.filter.allProfiles=All profiles
+
+resources.list.filter.title.noCategory=Found {0} freelancers matching the search criteria
+resources.list.filter.title.inCategory=Found {0} freelancers matching the search criteria in category {1}
+resources.list.filter.title.notFound=No freelancers found for the search criteria 
+
+resources.list.filter.allValues=All
+resources.list.filter.searchButton=Show Profiles
+resources.list.filter.resetButton=New Search
+resources.list.filter.searchAllPlaceholder=Search freelancers by skill or keyword
+resources.list.filter.searchAllInCategoryPlaceholder=Search for profiles in a category
+resources.list.filter.searchLocationPlaceholder=City
+resources.list.filter.searchRadiusPlaceholder=Neighborhood
+
+resources.list.filter.availability=Availability
+resources.list.filter.availability.all=All including unavailable
+resources.list.filter.availability.fulltime=Only available
+resources.list.filter.availability.parttime=At least partially available
+resources.list.filter.skillYearsOfExperience=Skill
+resources.list.filter.skillYearsOfExperience.minTitle=Minimum experience (years)
+resources.list.filter.skillYearsOfExperience.maxTitle=Maximum experience (years)
+resources.list.filter.skillYearsOfExperience.min=Not specified
+resources.list.filter.skillYearsOfExperience.max=Not specified
+resources.list.filter.languages=Language
+resources.list.filter.languages.level=Minimal level
+resources.list.filter.hourlyRate=Hourly rate (£)
+resources.list.filter.hourlyRate.from=From
+resources.list.filter.hourlyRate.to=To
+resources.list.filter.createdFrom=Member since
+
+resources.list.filter.pleaseSelectIndustry=Industry
+resources.list.filter.pleaseSelectLanguage=Language
+resources.list.filter.pleaseSelectExpYears=Total work experience (years)
+
+resources.list.filter.advancedSearch.expand=Advanced search &raquo;
+resources.list.filter.advancedSearch.hide=Close advanced search &laquo;
+resources.list.filter.premiumSearch.expand=<span class="tag tag-small tag-danger">NEW</span> <span class="text-strong">Advanced search &raquo;</span>
+resources.list.filter.premiumSearch.upgrade=<span class="tag tag-small tag-danger">NEW</span> <span class="text-strong">Advanced search for PREMIUM membership &raquo;</span>
+
+resources.list.premiumSearch.dialog.title=Advanced search
+resources.list.premiumSearch.dialog.message=<p>As a BASIC user, you can use the advanced search to see how many freelancers match your request.<p>\
+<p>To get the corresponding list of results, please upgrade to PREMIUM membership.</p>\
+<p>If you click on "Continue without upgrade" and then on "View profiles", you will receive a list of results based on your Basic search and without applying the advanced search.</p>
+resources.list.premiumSearch.dialog.okAction=Continue without upgrade
+resources.list.premiumSearch.dialog.upgradeAction=Upgrade now
+resources.list.premiumSearch.info.premiumCount.one=Upgrade to Premium and see 1 profile &raquo;
+resources.list.premiumSearch.info.premiumCount.few=Upgrade to Premium and see {0} profiles &raquo;
+resources.list.premiumSearch.info.premiumCount.many=Upgrade to Premium and see {0} profiles &raquo;
+resources.list.premiumSearch.info.button=Upgrade
+
+resources.list.myResources=My Resources
+resources.list.myResourcesModal=My resources
+resources.list.myResources.text=Marketplace on freelance.co.uk. Here, professionals present what they do best. <br> Come there and publish resources within your company.
+# resources.list.resources=Menu
+resources.list.searchPlaceholder=Search my resources
+
+resources.list.profile=Profiles
+resources.list.titleFirstPage=Profiles
+resources.list.title=Profiles - Page {0}
+resources.list.metaDescription=Freelancer profiles from all industries. Find freelancers in the profile overview.
+
+resources.list.id=ID
+resources.list.profTitle=Profile name
+# resources.list.city=City
+resources.list.firstname=Name
+resources.list.lastname=Last Name
+resources.list.hourRate=Hourly rate
+resources.list.availability=Availability
+resources.list.travelling=Willingness to travel
+resources.list.visibility=Visible
+resources.list.unlink=Delete
+resources.list.monitor=Marketplace monitor
+resources.list.quota=Your quota
+resources.list.quota.total=Used
+resources.list.quota.remaining=still left
+resources.list.quota.summary=You are currently presenting a {0} profile in the marketplace.
+resources.list.quota.summaryPlural=You are currently presenting {0} profiles in the marketplace.
+resources.list.all.notFound=We did not find any profiles
+resources.list.count=Profiles found: {0}
+resources.list.count.none=We did not find any freelancers
+resources.list.count.one=We found 1 freelancer
+resources.list.count.few=We found {0} freelancers
+resources.list.count.many=We have found {0} freelancers
+resources.list.count.forCategory=for category <b> {0} </b>
+resources.list.count.forCity=a instead of <b> {0} </b>
+resources.list.moreSkills=+ and more
+resources.list.premium=Members only
+resources.list.moreForPremium=We found <b> {0} </b> more matching profiles.
+resources.list.registerToSeeMore=Register to view more profiles
+
+resources.list.pleaseSelectAvailability=Availability
+resources.list.availability.all=Do not filter availability
+resources.list.availability.now=Availability now
+resources.list.onlyForRegistered=Members only
+resources.list.profileDetails=Profile detail
+
+resources.delete.request=Delete profile
+resources.delete.message=Are you sure you want to delete this profile?
+resources.delete.confirm=We have deleted the profile.
+resources.delete.deletebtn=Delete
+resources.delete.cancelbtn=Cancel
+
+resources.list.sorting=Sorting
+resources.list.sorting.relevance=Sort by relevancy
+resources.list.sorting.availability=Sort by availability
+resources.list.sorting.lastLogin=Sort by last activity
+
+resources.skill.name=Name
+resources.skill.experience=Experience length
+resources.skill.experience.placeholder=Experience (in years)
+reasource.skill.title=Add skill
+reasource.skill.edit=Edit skill
+
+resources.industry.name=Name
+resources.industry.experience=Experience (in years)
+reasource.industry.title=Add
+reasource.industry.add=Add scope
+reasource.industry.edit=Edit scope
+
+reasource.certificate.title=Add
+resources.certificate.name=Certificates and certifications
+resources.certificate.country=Country
+resources.certificate.certificateYear=Year
+reasource.certificate.add=Add a certificate or certificate
+reasource.certificate.edit=Edit the certificate or certificate
+
+reasource.language.title=Add
+resources.language.name=Language
+resources.langauge.level=Knowledge level
+reasource.language.add=Add language skills
+reasource.language.edit=Edit language proficiency
+
+resources.profile.confirmedProjectsCount=Verified experience: {0}
+resources.profile.referencesCount=Verified references: {0}
+
+# EMAIL: Profile quality reminder
+resources.profileQualityReminderMail.title=Companies want to know more about you…
+resources.profileQualityReminderMail.message=The first impression generated by your freelancer profile is critical to your business.<br> \
+<br> \
+Your potential clients will want to see quickly your expertise in order to decide if you are the right expert for their projects. <br> \
+<br> \
+We have defined sections that you should focus on when maintaining your profile: <br> \
+<ol> \
+<li> Skills </li> \
+<li> Work and project experience </li> \
+<li> Education </li> \
+</ol> \
+</p> \
+<p> \
+Be clear and precise, don''t be afraid to market your expertise. Impress with your skills and experience and show why you are the perfect choice for the searching employer. \
+<br> \
+<br> \
+<a href="{0}"> &gt;&gt; UPDATE MY PROFILE &gt;&gt; </a> \
+<br> \
+<br> \
+Best regards <br> \
+Your freelance.co.uk team
+
+resources.profileQualityReminderMail.button=My profile
+
+resources.externalMessage.contactConsultant=Contact
+resources.externalMessage.close=Close
+resources.externalMessage.sender.name=Name
+resources.externalMessage.sender.email=Email
+resources.externalMessage.sender.company=Company name
+resources.externalMessage.sender.vat=VAT ID
+resources.externalMessage.sender.address.country=Country
+resources.externalMessage.sender.address.city=City
+resources.externalMessage.sender.address.street=Street
+resources.externalMessage.sender.phoneNumber=Phone
+resources.externalMessage.subject=Subject
+resources.externalMessage.body=Message
+resources.externalMessage.sender.company.type=Company type *
+resources.externalMessage.sender.company.type.recruiting=Recruitment agency
+resources.externalMessage.sender.company.type.consulting=
+resources.externalMessage.sender.company.type.customer=End Customer
+resources.externalMessage.sender.password=Password *
+resources.externalMessage.sender.password2=Password again *
+resources.externalMessage.sender.terms=I agree to the Terms and Conditions *
+resources.externalMessage.sender.data.security=I agree to the terms of Data Policy *
+resources.externalMessage.sender.newsletter=I would like to receive the Newsletter
+resources.externalMessage.createProfile=Create company profile
+resources.externalMessage.sendMessageDataPolicyNote=
+resources.externalMessage.sendMessageDataPolicyLink=
+resources.externalMessage.save=Send message
+resources.externalMessage.confirmation.email.title=Confirm email address.
+resources.externalMessage.confirmation.email.body=\
+  Thank you for your message from <a href="{0}" target="_blank">freelance.co.uk!</a> <br> <br> \
+  <b> To confirm your email address and send your message, please click <a href="{1}" target="_blank">here</a>. </b> <br> <br> <br> \
+  Best regards <br> \
+  <a href="{0}" target="_blank">freelance.co.uk</a> Team <br> <br> \
+  PS: Did you receive this message without registering on freelance.co.uk? <br> In that case, please do not confirm the activation link for security reasons. We will then automatically delete the relevant account after 72 hours.
+resources.externalMessage.confirmation.email.success=The message was sent successfully.
+resources.externalMessage.confirmation.email.warning=This link is no longer valid.
+resources.externalMessage.save.success=A confirmation email was sent to: {0}. \
+  Please confirm your email address so that your message can be sent.
+
+resources.unfilledReferences.title=Reference
+resources.unfilledReferences.title.one=Reference
+resources.unfilledReferences.close=Close
+resources.unfilledReferences.company=Company name
+resources.unfilledReferences.from=from
+resources.unfilledReferences.to=to
+
+# updateAvailability
+resources.updateAvailability.title=Update profile availability
+resources.updateAvailability.successTitle=Thank you!
+resources.updateAvailability.successMessage=Availability update for "{0}" was successful.
+resources.updateAvailability.dashboard=Go to application
+resources.updateAvailability.setDateMessage=Please enter the date from which you will be open for new offers:
+resources.updateAvailability.update=Save
+
+# Resources CV
+resources.cv.date.ongoing=now
+resources.cv.email=E-mail
+resources.cv.phone=Phone
+resources.cv.location=Location
+resources.cv.contactNotAvailable=The contact information were not revealed for this profile. 
+
+profileRecord.travelling.notDefined=Not specified
+profileRecord.travelling.nearResidential=At home
+profileRecord.travelling.200kmRadius=Nearby (100 km)
+profileRecord.travelling.nationWide=Within the UK
+profileRecord.travelling.europe=Europe
+profileRecord.travelling.worldwide=Worldwide
+profileRecord.travelling.onRequest=On request
+profileRecord.availability.none=Not available
+profileRecord.availability.fullTime=Full availability
+profileRecord.availability.partTime=Partial availability
+profileRecord.availability.from={0}
+profileRecord.availability.notSpecified=Not specified
+profileRecord.visibility.all=Marketplace
+profileRecord.visibility.partners=Partners only
+profileRecord.visibility.invisible=Internal
+profileRecord.addShortProfile=Attach profile
+
+# SEARCH AGENTS
+searchagents.list.title=Search Agents
+searchagents.confirmDelete=This search agent will be deleted.
+searchagents.confirmDeleteTitle=Do you want to delete the search agent?
+searchagents.noSearchAgents=Create search agents and get informed about suitable offers.
+searchagents.hideMatchingProjects=Close
+searchagents.showAllProjects=Show all results
+searchagents.totalProjectsCount=Search results: {0}
+
+# MY NETWORK
+network.myWatchlist=Favorite profiles
+network.myWatchlistProjects=Favorite projects
+
+network.myChildUsers.unlink=Delete
+network.searchPlaceholder=Search my network
+
+network.watchlist.deletedlg.title=Remove profile from favorites
+network.watchlist.deletedlg.text=Are you sure you want to remove this profile from your favorites? Remember that this will also delete your comments on this profile.
+network.watchlist.deletedlg.cancelbtn=Cancel
+network.watchlist.deletedlg.confirmbtn=Delete
+network.watchlist.project.deletedlg.title=Remove project from favorites
+network.watchlist.project.deletedlg.text=Are you sure you want to remove this project from your favorites? Remember that this will also delete your notes on this project.
+network.watchlist.project.deletedlg.cancelbtn=Cancel
+network.watchlist.project.deletedlg.confirmbtn=Delete
+
+network.viewWatchlistProfile.note.summary=Note
+network.viewWatchlistProfile.note.save=Save note
+
+# PROJECTS
+project.type=Method of collaboration
+project.type.temporary_employment=Short-term collaboration
+project.type.permanent_employment=Long-term collaboration
+project.type.project_only=Project only
+project.type.cost_based=By project budget
+
+project.remoteType=Remote collaboration
+project.remoteType.full_remote=Remote only
+project.remoteType.partial_remote=Partially remote
+project.remoteType.on_site=Site only
+
+
+projects.editform.add=Add project
+projects.editform.edit=Edit project
+projects.editform.infoAdd=<p>Enter information about your project and find the most suitable freelance collaborators.</p>
+projects.editform.infoResubmit=This project does not meet the conditions of freelance.co.uk. <br> \
+We can only publish projects that contain relevant information and comply with the General Terms and Conditions of freelance.co.uk. <br> \
+<br> \
+You can edit, save and resubmit your project for approval. <br> \
+When you have finished editing, please resubmit.
+projects.editform.visibility=Visibility
+projects.editform.offline=Offline
+projects.editform.online=Online
+projects.editform.rejected=Rejected
+projects.editform.pending=Awaiting approval
+projects.editform.title=Project title
+projects.editform.referenceNumber=Ref. No.
+projects.editform.position=Position
+
+projects.editform.projectStart=Start date
+projects.editform.projectStart.asap=As soon as possible
+projects.editform.projectEnd=End date
+projects.editform.type=Method of collaboration
+projects.editform.type.permanentEmployment=Long-term collaboration
+projects.editform.type.projectOnly=Only on project
+projects.editform.type.temporaryEmployment=Short-term collaboration
+projects.editform.type.costBased=By project budget
+projects.editform.remoteType=Remote collaboration
+projects.editform.remoteType.full_remote=Remote only
+projects.editform.remoteType.partial_remote=Partially remote
+projects.editform.remoteType.on_site=On-site only
+
+projects.editform.address=Street and house number
+projects.editform.zip=Postcode
+projects.editform.city=City
+projects.editform.country=Country
+projects.editform.description=Description of tasks and requirements
+projects.editform.skills=Knowledge and skills
+projects.editform.primarySkills=Important skills
+projects.editform.otherSkills=Other skills
+projects.editform.primarySkillsHint=Please select the most important skills that match your assignment.
+projects.editform.otherSkillsHint=Please select nice-to-have skills.
+projects.editform.addOtherSkills=Select other skills
+projects.editform.applicationEndEnabled=Set deadline for offers
+projects.editform.contactPerson=Contact person
+projects.editform.skills.add=Add
+projects.editform.skills.remove=Remove skill
+projects.editform.skills.skill.or=or
+projects.editform.skills.remainingSkillsCount=You can insert another {0} skills.
+projects.editform.selectContactData=Select from company administrators
+projects.editform.newContactData=Add a new contact person
+projects.editform.gender=Gender
+projects.editform.genderFemale=Ms.
+projects.editform.genderMale=Mr.
+projects.editform.contactFirstname=Name
+projects.editform.contactLastname=Last Name
+projects.editform.contactPhone=Telephone number
+projects.editform.contactEmail=Email
+projects.editform.changePicture=Upload a photo
+projects.editform.save=Save
+projects.editform.childUserForm.type.recruiter=Recruiter
+projects.editform.childUserForm.type.salesman=Company representative
+projects.editform.childUserForm.sendCoworkerInvitation=Invite and activate employees with your account
+projects.editform.hourRate=Hourly rate
+projects.editform.applicationLink=Link to offer
+
+projects.save.success=You have saved a project
+
+contact.save.success=You have saved a customer
+
+
+projects.list.title=Projects - Page {0}
+projects.list.titleFirstPage=Projects
+projects.list.metaDescription=Project offers for independent freelancers of all industries, without commission and free of charge.
+projects.list.mainInformation=Master information
+# projects.list.text=Post your projects on freelance.co.uk and start accepting offers from the most experienced professionals! <br> <br> View the projects offered on the market and offer your skills.
+projects.list.searchPlaceholder=Search
+projects.listAll.searchPlaceholder=Enter a search term
+projects.list.new=Add a new project
+projects.list.newOffer=Initiative offer
+projects.list.newOffer.tooltip=Would you like to apply for a project that is not published on freelance.co.uk? Try sending an initiative offer to the company that interested you.
+projects.list.newSalesPerson=Add a contact person
+projects.list.myProjects=Projects
+# projects.list.sentOffers=Submissions submitted
+projects.list.companyname=Company name
+projects.list.projTitle=Position
+projects.list.city=In (city)
+projects.list.projectStart=From (date)
+projects.list.projectOffers=Offers received
+projects.list.offline=Offline
+projects.list.online=Online
+projects.list.rejected=Rejected
+projects.list.pending=Awaiting approval
+projects.list.updated=Last updated
+projects.list.tip.view=View
+projects.list.tip.delete=Delete
+projects.list.tip.edit=Edit
+projects.list.startDate=Start
+projects.list.endDate=End
+projects.list.referenceNumber=Ref. no.
+projects.list.pending.message=Please wait while the freelance.co.uk team verifies the assignment of your project.
+projects.list.rejected.message=Approval postponed
+projects.list.startDateInPast.advice=Please update the start date of this project or change its status to offline.
+projects.list.projectOutDated=This project is offline because the start date is in the past.
+projects.list.views=Number of views
+projects.list.views.total=Total views
+projects.list.views.registered=Views by logged in users
+
+projects.list.hiddenTitle=Visible to partners only
+
+projects.list.filter.allProjects=All projects
+projects.list.filter.searchAllPlaceholder=Search projects by skill or keyword
+projects.list.filter.allValues=All
+
+projects.list.filter.hourlyRate=Hourly rate (£)
+projects.list.filter.startDate=Project start
+projects.list.filter.projectDuration=Project duration (days)
+
+projects.list.filter.advancedSearch.expand=Show advanced search
+projects.list.filter.advancedSearch.hide=Close advanced search
+projects.list.filter.premiumSearch.expand=<span class="tag tag-small tag-danger">NEW</span> <span class="text-strong">Show advanced search</span>
+projects.list.filter.premiumSearch.upgrade=<span class="tag tag-small tag-danger">NEW</span> <span class="text-strong">Advanced search with PREMIUM membership &raquo;</span>
+
+projects.list.count=Found projects: {0}
+projects.list.count.none=We did not find any projects
+projects.list.count.one=We found 1 project
+projects.list.count.few=We found {0} projects
+projects.list.count.many=We found {0} projects
+projects.list.count.forCategory=for category <b>{0}</b>
+projects.list.count.forCity=in <b>{0}</b>
+
+projects.list.confirm.resubmit=Do you want to resubmit this project?
+projects.list.confirm.resubmit.title=Do you want to resubmit this project?
+projects.list.confirm.resubmit.confirm=Yes
+
+projects.list.remoteFilter=Remote projects only
+projects.list.remoteFilter.teaser=<span class="tag tag-small tag-danger">NEW</span> Advanced search for PREMIUM membership &raquo;
+
+projects.list.rejected.tooltip=This project does not meet the conditions of freelance.co.uk. \
+We can only publish projects that contain relevant information and comply with the Terms and Conditions of freelance.co.uk. \
+   \
+You can edit, save and resubmit your project for approval. \
+When you have finished editing, please resubmit.
+
+projects.list.logo.notLogged=Company information is available to registered users of freelance.co.uk.
+projects.list.company.notLogged=Visible to members only
+projects.list.company.notLogged.tooltip=Company information is available to registered users of freelance.co.uk.
+projects.list.company.notPremium=Visible only to users with Premium membership
+projects.list.company.notPremium.tooltip=Company information is only available to users with a valid Premium membership.
+projects.list.coverLetter=Offer text
+projects.list.applicationSentDate=Date
+projects.list.projectDetails=Project details
+projects.list.projectSaved=Projects saved.
+projects.list.projectNotSaved=Failed to save project.
+project.list.applicationDate=Date
+project.list.name=Name
+project.list.offline=Offline
+project.list.online=Online
+project.list.all=All
+project.list.createDate=Date
+projects.listAll.search=Search for projects
+projects.listAll.searchInCategory=Search for projects in a category
+projects.listAll.count=Found projects
+
+# projects premium search
+projects.list.premiumSearch.dialog.title=Advanced search
+projects.list.premiumSearch.dialog.message=<p>As a BASIC user, you can use the advanced search to see how many projects match your request.<p>\
+<p>To get the corresponding list of results, please upgrade to PREMIUM membership.</p>\
+<p>If you click on "Continue without upgrade" and then on "View projects", you will receive a list of results based on your Basic search and without applying the advanced search.</p>
+projects.list.premiumSearch.dialog.okAction=Continue without upgrade
+projects.list.premiumSearch.dialog.upgradeAction=Upgrade now
+projects.list.premiumSearch.info.premiumCount.one=Upgrade to Premium and see 1 project &raquo;
+projects.list.premiumSearch.info.premiumCount.few=Upgrade to Premium and see {0} projects &raquo;
+projects.list.premiumSearch.info.premiumCount.many=Upgrade to Premium and see {0} projects &raquo;
+projects.list.premiumSearch.info.button=Upgrade
+
+projects.skills.notUnique.error=Some skills are repeated.
+
+# not used right now, usage of few milestones in plan (offer sent/clicked/opened)
+projects.monitor.milestone=Milestone
+projects.camo.monitor.status=Status
+projects.camo.monitor.date=Event time
+projects.camo.monitor.offer.K100=Offer submitted
+projects.camo.monitor.offer.K200=Read email
+projects.camo.monitor.offer.K300=Viewing profile
+projects.camo.monitor.offer.K400 =
+projects.camo.monitor.offer.K500=Customer login
+projects.camo.monitor.offer.K600=View full profile
+projects.camo.monitor.offer.K700=View profile
+projects.camo.monitor.offer.K800=Candidate request
+projects.camo.monitor.offer.K900=Client interview
+projects.camo.monitor.offer.K1000=Confirmed / Canceled
+
+projects.camo.monitor.offer.F401=No longer available
+projects.camo.monitor.offer.F402=No longer available
+
+projects.camo.monitor.contract=Contract
+projects.camo.monitor.contract.yes=Yes
+projects.camo.monitor.contract.no=No.
+
+projects.deletedlg.title=Delete Project
+projects.deletedlg.text=Are you sure you want to delete this project?
+projects.deletedlg.cancelbtn=Cancel
+projects.deletedlg.confirmbtn=Delete
+
+projects.noProjects=There are currently no projects available.
+projects.noApplications=There are currently no offers available.
+
+projects.preview.refNr=Ref. no.
+projects.preview.from=From
+projects.preview.to=Limited to
+projects.preview.location=In
+projects.preview.type=Method of collaboration
+projects.preview.updated=Latest update
+projects.preview.descriptionLabel=Task description and requirements
+projects.preview.contactLabel=Contact
+projects.preview.updatedAt=Last updated
+projects.preview.company=Company
+projects.preview.address=Address
+projects.preview.zip=Postcode
+projects.preview.country=Country
+projects.preview.email=Email
+projects.preview.tel=Phone
+projects.preview.projectStart=Start
+projects.preview.projectStart.asap=As soon as possible
+projects.preview.projectEnd=End
+projects.preview.ort=City
+projects.preview.hourRate=Hourly rate
+projects.preview.remoteType=Remote collaboration
+
+projects.preview.info=<p> Does this entry suit you? </p> \
+<p> Now you can easily submit your offer </p>
+projects.preview.actions=Actions
+projects.preview.actions.mark=Add project to favorites
+projects.preview.actions.unmark=Remove project from favorites
+projects.preview.actions.register=Register for free
+projects.preview.actions.registerAndSendOffer=Register for free to create an offer
+projects.preview.actions.print=Print project
+projects.preview.actions.forward=Forward project
+
+projects.preview.primarySkills=Important skills:
+projects.preview.otherSkills=Other skills:
+projects.preview.skillsLabel=Category
+projects.preview.statsLabel=Statistics
+projects.preview.offerLabel=Create an offer
+projects.preview.offerText=Are you interested in this project?
+projects.preview.offerButton=Offer your experience
+projects.preview.applicationAlreadySent=You have already submitted an offer for this project.
+projects.preview.profileNeedsToBeApproved=Once we have approved your profile, you can submit your offer for this project.
+projects.preview.isProfileOfflinePart1=Your profile is now offline
+projects.preview.isProfileOfflinePart2=If you want to apply for projects again on freelance.co.uk, change the status of your <a href="/resources/edit-my-resource"> profile to </a> online.
+projects.preview.isProfileNotApproved=Your profile has not been approved yet. You can apply for projects only after approving the profile.
+# everything
+projects.preview.projectOffersCountSubscriptionTeaser=Only Premium members can submit an unlimited number of offers.
+projects.preview.projectOffersCountSubscriptionTeaserButton=Upgrade membership
+projects.preview.premiumFeature.contact=Company information is only available to Premium users.
+projects.preview.nextQuotaPeriod=The limit for submitted Basic tariff offers has been exhausted. It will be possible to send another free offer at the earliest {0}.
+
+projects.preview.note.summary=Note
+projects.preview.note.save=Save note
+
+projects.preview.shareProject.header=Recommend this project
+projects.preview.shareProject.sender.info=If you want to offer this project to other contacts, we will send them an email on your behalf.
+projects.preview.shareProject.sender.name=Your first and last name
+projects.preview.shareProject.recipient.name=Recipient name
+projects.preview.shareProject.recipient.email=Recipient''s email address
+projects.preview.shareProject.message=Your message to the recipient
+
+projects.preview.projectNotFound=This project is no longer available.
+
+projects.preview.shareProject.missingFirstName=Please enter your name.
+projects.preview.shareProject.missingLastName=Please enter your last name.
+projects.preview.shareProject.missingName=Please enter a name.
+projects.preview.shareProject.missingEmail=Please enter a valid email address
+projects.preview.shareProject.missingMessage=Please enter a message.
+
+projects.preview.shareProject.confirmMessage=You have sent a message.
+
+shareProject.mail.subject={0} recommends a project for you
+shareProject.mail.hello=Hello
+shareProject.mail.text=There is a project on <a href="http://freelance.co.uk">freelance.co.uk.</a> that might interest you: <a href="{0}">{0}</a>
+shareProject.mail.ending=Best regards
+
+mail.art14=
+
+projects.offers.received=Offers
+projects.offers.sent=Offers
+projects.offers.exceededQuota=You have reached the maximum number of offers submitted.
+
+projects.offers.list.created=Date
+projects.offers.list.profiles=Profile offered
+projects.offers.list.name=Name
+projects.offers.list.directOffer=Initiative offer
+projects.offers.list.hiddenTitle=Visible to partners only
+projects.offers.list.showMore=More
+projects.offers.list.showLess=Show less
+projects.offers.list.company=Company
+projects.offers.list.logo=Logo
+projects.offers.list.title=My Positions
+projects.offers.list.projectLocation=in (city)
+projects.offers.list.subject=Subject
+projects.offers.list.noOffers=You have not submitted any offers yet
+projects.offers.list.projectTitle=Project title
+projects.offers.list.recipientOffers=Initiative offers
+projects.offers.list.newTag=New offer
+projects.offers.list.verified=Verified profile
+projects.offers.list.offerText=Offer text
+
+projects.offers.confirmDelete=The offer will be deleted from the list
+projects.offers.confirmDeleteTitle=Are you sure you want to delete this offer?
+
+projects.offerForm.add=Create an offer
+projects.offerForm.toRecipientAdd=Create an initiative offer
+projects.offerForm.toRecipientInfo=Do you want to send an initiative offer? No problem - let the company that interests you know directly.
+projects.offerForm.infoAdd=
+projects.offerForm.hint=Submit an offer for this project now. The company that entered it will receive a link to your profile on freelance.co.uk.
+projects.offerForm.recipientEmail=Customer email address
+projects.offerForm.recipientEmailPlaceholder=Please enter an email address here
+projects.offerForm.recipientGender=Gender
+projects.offerForm.genderMale=Mr.
+projects.offerForm.genderFemale=Ms.
+projects.offerForm.recipientFirstname=Name
+projects.offerForm.recipientLastname=Last Name
+projects.offerForm.recipientCompany=Company name
+projects.offerForm.subject=Subject
+projects.offerForm.subjectOnOfferOnProjectDefault=Offer for your project on freelance.co.uk Ref. no. {0}
+projects.offerForm.subjectOnOfferOnProjectWithoutRefNo=Offer for your project on freelance.co.uk
+projects.offerForm.profiles=Attach profile
+projects.offerForm.profiles.singleProfileInclude=Attach your profile
+projects.offerForm.profiles.placeholder=Enter the profile name
+projects.offerForm.profiles.noProfiles=Please create a profile at first.
+projects.offerForm.profiles.noProfilesLink=Go to My Resources
+projects.offerForm.addProfile=Attach another profile
+projects.offerForm.browseProfiles=Open profile list
+projects.offerForm.footerNote=The collaboration offer also includes a link to <a href={0}>your profile</a>, including contact information and attachments.
+projects.offerForm.message=Offer text
+projects.offerForm.submit=Submit a quote
+projects.offerFormTemplate.save=Save as template
+projects.offerFormTemplate.select=Choose a template
+projects.offerFormTemplate.templates=My Templates
+projects.offerFormTemplate.noTemplates=You have not saved any templates yet
+projects.offerFormTemplate.acceptTemplate=Save template
+projects.offerFormTemplate.cancel=Cancel
+projects.offerFormTemplate.accept=Save
+projects.offerFormTemplate.name=Name *
+projects.offerFormTemplate.text=Description
+projects.offerFormTemplate.success=You have saved a template
+projects.offerFormTemplate.delete=You have deleted a template
+projects.offerFormTemplate.deletedlg.title=Delete template
+projects.offerFormTemplate.deletedlg.text=Are you sure you want to delete this template?
+projects.offerFormTemplate.deletedlg.cancelbtn=Cancel
+projects.offerFormTemplate.deletedlg.confirmbtn=Delete
+projects.offer.tooltip=Custom message text options and message templates are only available for PREMIUM users.
+
+#! important. next message cannot use quotes or double quotes
+projects.offerForm.defaultMessage=Hello, \\n \
+\\n \
+I would like to offer you cooperation. \\n \
+\\n \
+You will find a link to my profile in this email. \\n \
+I will be happy to answer any questions you may have and look forward to hearing from you. \\n \
+\\n \
+Sincerely, \\n \
+{0} \\n \
+\\n \
+{1} \\n \
+{2}
+
+projects.offerForm.message.male=Dear Sir {0}, \\n \
+\\n \
+I would like to offer you cooperation on your project. \\n \
+\\n \
+You will find a link to my profile in this email. \\n \
+I will be happy to answer any questions you may have and look forward to hearing from you. \\n \
+\\n \
+Sincerely, \\n \
+{1} \\n \
+\\n \
+{2} \\n \
+{3}
+
+projects.offerForm.message.female=Dear {0}, \\n \
+\\n \
+I would like to offer you cooperation on your project. \\n \
+\\n \
+You will find a link to my profile in this email. \\n \
+I will be happy to answer any questions you may have and look forward to hearing from you. \\n \
+\\n \
+Sincerely, \\n \
+{1} \\n \
+\\n \
+{2} \\n \
+{3}
+
+projects.offer.success=You have submitted an offer
+projects.offer.ownProjectError=You cannot submit offers for custom company projects.
+projects.offer.noProfilesError=Please attach your profile to this offer.
+
+# EMAIL: New offer notification – on platform
+projects.offerMail.indtroduction={0}, <br> <br> \
+we are pleased to inform you that you have received a new application for your project {1}.
+projects.offerMail.indtroductionDirectOffer=Hello, <br> \
+You have received an offer!
+projects.offerMail.linkPart=Please click here to view the profile of your potential candidate:
+projects.offerMail.linkText=View application
+projects.offerMail.ending=Best regards <br> \
+Your freelance.co.uk team<br>
+
+# EMAIL: New offer notification – imported
+projects.offerMail.imported.text=Hello,<br>\
+we are pleased to inform you that you have received a new application for your project "{0}".<br>\
+Please click <a href="{1}">here</a> to view the profile of your potential candidate:<br>\
+<p style="text-align: center"><a href="{1}" style="border-radius: 2px; text-decoration: none; color: #ffffff; background-color: #76c8d3; border-color: #76c8d3; display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; border: 1px solid transparent; white-space: nowrap; padding: 10px 15px; font-size: 18px; line-height: 1.42857143;">\
+  View application\
+</a></p>\
+<br>\
+Your project is posted on both {2} and freelance.co.uk, this application is from freelance.co.uk.<br>\
+If you have any questions, please call us at +49&nbsp;89&nbsp;215378-222.<br><br>\
+We wish you success in staffing your project.<br>\
+Best regards<br>\
+Your freelance.co.uk team<br>\
+<br><br><hr><br><br>\
+Hallo,<br>\
+wir freuen uns, Ihnen mitteilen zu können, dass Sie eine neue Bewerbung für Ihr Projekt "{0}" erhalten haben.<br>\
+Bitte klicken Sie <a href="{1}">hier</a>, um das Profil Ihres potentiellen Kandidaten einzusehen:<br>\
+<p style="text-align: center"><a href="{1}" style="border-radius: 2px; text-decoration: none; color: #ffffff; background-color: #76c8d3; border-color: #76c8d3; display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; border: 1px solid transparent; white-space: nowrap; padding: 10px 15px; font-size: 18px; line-height: 1.42857143;">\
+  Bewerbung ansehen\
+</a></p>\
+<br>\
+Ihr Projekt ist sowohl auf {2} und freelance.co.uk ausgeschrieben, diese Bewerbung stammt von freelance.co.uk.<br>\
+Sollten Sie Fragen haben, rufen Sie uns bitte unter +49&nbsp;89&nbsp;215378-222 an.<br><br>\
+Wir wünschen Ihnen viel Erfolg bei der Besetzung Ihres Projektes.<br>\
+Mit den besten Grüßen<br>\
+Ihr freelance.co.uk Team
+
+
+projects.offerView.title=offer
+projects.offerView.project=Selected project
+projects.offerView.profile=Profile link
+# projects.offerView.profiles=Attached Profiles
+projects.offerView.message=Menu text
+projects.offerView.created=Date
+projects.offerView.deletedUserOffer=The user who submitted this offer has been deleted.
+
+projects.contactForm.viewContact=Customer
+projects.contactForm.editContact=Edit customer
+projects.contactForm.addContact=Add customer
+projects.contactForm.gender=Gender
+projects.contactForm.genderMale=Mr.
+projects.contactForm.genderFemale=Ms.
+projects.contactForm.recipientFirstname=Name
+projects.contactForm.recipientLastname=Last Name
+projects.contactForm.recipientCompany=Company name
+projects.contactForm.recipientEmail=Customer email address
+projects.contactForm.recipientEmailPlaceholder=Please enter an email address here
+projects.contactForm.info=List your customers here and all important information will be at your fingertips.
+
+projects.template.sameName=A template with this name already exists
+
+resources.profilePreview.notAvailable=No longer available
+resources.profilePreview.notAvailableDescription=This profile is currently unavailable.
+
+projects.aplication=offer
+projects.aplications=offers
+projects.aplications.one=1 offer
+projects.aplications.few={0} offers
+projects.aplications.many={0} offers
+
+# EMAIL: Project set automatically offline notification
+projects.projectWentOfflineEmail.title=freelance.co.uk | Your project {0} is offline
+projects.projectWentOfflineEmail.hello.male=Hello
+projects.projectWentOfflineEmail.hello.female=Hello
+projects.projectWentOfflineEmail.message={0}, <br> \
+<br> \
+have you successfully completed your project posting?<br> \
+<br>The following project was automatically deactivated because it has not been updated for {3} days: <br> \
+{1}, {2} <br> \
+<br> \
+If you were unable to fill the open position, you can repost the project. <br> \
+<br>Do you need help? Please contact us at <a href="mailto:info@freelance.co.uk"> info@freelance.co.uk </a> <br> \
+<br> \
+Best regards<br>\
+Your freelance.co.uk team
+
+# PROJECT PROPOSAL
+projects.projectProposalDialog.title=Submit project
+projects.projectProposalDialog.send=Submit
+projects.projectProposalDialog.projectSelect=Address with project:
+projects.projectProposalDialog.newProject=Create a new project
+projects.projectProposalDialog.editProject=Edit project
+projects.projectProposalDialog.messagePreview=Show message preview
+projects.projectProposalDialog.messageSubject=Subject
+projects.projectProposalDialog.messageText=Message text
+projects.projectProposalDialog.sentAlready=Already submitted
+
+projects.service.addProjectProposal.success=Project was submitted successfully.
+projects.service.addProjectProposal.error=Sorry, the project could not be submitted.
+
+projects.projectProposalOffer.offerShowText=Are you interested in this project?
+projects.projectProposalOffer.offerShowButton=Offer your experience
+projects.projectProposalOffer.title=Collaboration offer
+projects.projectProposalOffer.subject=Subject
+projects.projectProposalOffer.message=Message text
+projects.projectProposalOffer.offerSubject=New project offer "{0}"
+projects.projectProposalOffer.offerText=Hello, \n \
+\n \
+Thank you for your request, I am interested in the submitted project and in entering into collaboration with you. Can we agree on the details? \n \
+\n \
+Sincerely, \n \
+{1}
+projects.projectProposalOffer.offerExists=You have already created an offer for this project.
+projects.projectProposalOffer.error.noProject=This project is no longer available.
+
+email.projects.projectProposalSend.sendError=Email could not be sent.
+
+# EMAIL:
+email.projects.projectProposalSend.subject=New project offer on freelance.co.uk
+email.projects.projectProposalSend.text=Congratulations, <br /> \
+You have received a new offer on <a href="https://freelance.co.uk">freelance.co.uk</a>! <br /> <br /> \
+The company {0} sent you the following project and would like to know your interest in this position and your availability.<br>
+email.projects.projectProposalSend.buttonText=View request
+email.projects.projectProposalSend.textEnding=Please respond to the project provider directly.
+
+projects.listSentProposals.noProposals=You have not submitted any offers yet. <br /> Find a suitable freelancer and offer him a project.
+projects.listSentProposals.status=Status
+projects.listSentProposals.status.pending=Awaiting approval
+projects.listSentProposals.status.sent=Offer submitted
+projects.listSentProposals.status.read=Offer read by freelancer
+projects.listSentProposals.status.offered=Freelancer offer
+
+projects.listReceivedProposals.noProposals=No offer has been received yet.
+projects.listReceivedProposals.newTag=New offer
+
+# WATCHLIST
+watchlist.marked=Favorites
+watchlist.contactRevealed=With contact information
+watchlist.rememberedAt=Saved
+watchlist.city=City
+watchlist.name=Name
+watchlist.noResults=You don''t have any projects in your favorites yet.
+watchlist.profile.noResults=You don''t have any favorites profiles yet.
+watchlist.profile.unmarked=You have removed a profile from favorites
+watchlist.updateWatchlistNote.save.success=You have saved a note
+watchlist.projects.updateWatchlistNote.save.success=You have saved a note
+watchlist.projects.title=Title / Position
+watchlist.projects.city=City
+watchlist.projects.company=Employer
+watchlist.projects.note=Note
+watchlist.projects.showNote=Show note
+
+# WIZARD
+wizard.step=Step {0}:
+wizard.userSettingsMessage=Please enter basic information about you.
+wizard.companyProfileMessage=Please create a profile for your company.
+wizard.companyProfileByUnregisteredMessage=Do you want to offer the best on freelance.co.uk? Create a profile for your company.
+wizard.resourceProfile=Please continue by filling in your contact information.
+wizard.resourceProfileAvailability=Please fill in information about your availability and experience.
+wizard.resourceProfileSkillOffers=Please indicate your skills and relevant industry experience.
+wizard.resourceProfileConsultantSummary=Introduce yourself to future co-workers in your own words and describe your experience.
+wizard.resourceProfileCertificates=Please indicate if you have obtained any certificates and what languages you speak.
+wizard.resourceProfileReferences=Please enter your work experience and use the option to directly request confirmation of references.
+wizard.resourceProfileEducation=Please indicate your education.
+wizard.resourceProfileResidence=Please select your preferred location.
+wizard.resourceProfileSubmit=Now just publish your profile on freelance.co.uk and you can start!
+wizard.contactData=Contact information
+wizard.availability=Availability and experience
+wizard.skillsAndBramches=Skills and disciplines
+wizard.consultantSummary=Summary
+wizard.certificatedAndLanguages=Certificates and language skills
+wizard.references=Professional history
+wizard.education=Education
+wizard.residence=Required location
+wizard.submit=Publish profile
+
+#Simplified freelancer wizard
+wizard.freelancer.stepNumber.title=Step {0}:
+wizard.freelancer.nextStep=Next step
+wizard.freelancer.createProfileStep=Create profile
+
+wizard.freelancer.step1.title=We need some information to create a profile. It will only take a few minutes.
+wizard.freelancer.step2.title=Please enter information about your availability and what language(s) you speak.
+wizard.freelancer.step3.title=We''re still interested in what you know and what work experience you have.
+wizard.freelancer.step4.title=All you have to do is fill in your personal performance and that''s it!
+
+wizard.freelancer.finalStep.successMessage=Your profile was created successfully.
+wizard.freelancer.finalStep.message=<div class="h1 text-strong text-left no-padding no-margin" style="font-size: 200%;">PREMIUM for FREE!</div> \
+<div>\
+    Thank you for creating your profile.<br> \
+    And as promised, as a thank you will now benefit from your Premium Membership completely free of charge until 31.12.2022<sup>*</sup>:<br><br>\
+    <ol>\
+      <li>full access to all projects</li> \
+      <li>unlimited acquisition of projects (find jobs and send applications)</li> \
+      <li>view full contact details of companies offering projects</li> \
+      <li>use search agents and more</li> \
+    </ol>\
+</div>
+wizard.freelancer.finalStep.messageDetails=You will be redirected shortly ...
+wizard.freelancer.finalStep.subscriptionOrderButton=Order Premium
+wizard.freelancer.finalStep.gotoApplication=Get your next project »
+wizard.freelancer.finalStep.notice=<sup>*</sup> Your Premium membership ends automatically on 31.12.2022. There is no fee-based renewal, \
+instead your membership is converted into a BASIC membership. As BASIC, your profile and activities \
+will of course remain, you will only have limited usage options. As soon as you upgrade to PREMIUM, \
+you will have full usage options again.
+
+wizard.freelancer.basicData.title=Basic Information
+wizard.freelancer.basicData.pictureHint=Improve your profile and please upload a jpg / jpeg photo up to 10MB in size. Photo profiles are preferred in search results.
+wizard.freelancer.availability.title=Availability
+wizard.freelancer.languages.title=Language skills
+wizard.freelancer.languages.addLanguage=Add
+wizard.freelancer.skills.title=Skills
+wizard.freelancer.skills.skill=Skill
+wizard.freelancer.skills.placeholder=(e.g. PHP, e-mail marketing, etc.)
+wizard.freelancer.skills.addSkill=Add
+wizard.freelancer.references.title=Work Experience
+wizard.freelancer.references.title.hint=Published work experience will help increase your chances of being contacted by potential clients who will gain a better understanding of your knowledge.
+wizard.freelancer.references.missingInfo=Profiles with work experience appear higher in search results and have a higher chance of being contacted by companies.
+wizard.freelancer.contactData.title=Contact Information
+wizard.freelancer.personalSummary.title=Personal performances
+wizard.freelancer.personalSummary.placeholder=Enter a short description of your profile of at least 50 characters, the description must not contain contact information. "I have been developing web applications for 10 years, I focus mainly on e-shops ..."
+wizard.freelancer.personalSummary.editInformationMessage=Please do not provide any contact information (name, email, phone, URL), <br /> this information will be removed as part of the data quality check.
+
+# SEARCH AGENT
+searchAgent.new=Create a new search agent
+searchAgent.title=Search Agent
+searchAgenttype.projects=Projects
+searchAgent.name=Name of the search agent
+searchAgent.searchFor=Search
+searchAgent.type.projects=Projects
+searchAgent.type.projectsAutomatic=Agent set by profile
+searchAgent.term=Search term
+searchAgent.location=ZIP, city, or county
+searchAgent.skills=Qualification
+searchAgent.addSkills=Add skill
+searchAgent.mailingType=Mail delivery
+searchAgent.mailing.daily=Daily
+searchAgent.mailing.weekly=Weekly
+searchAgent.mailing.monthly=Monthly
+searchAgent.save=Save
+searchAgent.close=Cancel
+searchAgent.hits=Agent found
+searchAgent.project.location=Location
+searchAgent.project.startDate=Start date
+searchAgent.project.startDate.asap=as soon as possible
+searchAgent.project.endDate=End date
+searchAgent.project.button=View project
+searchAgent.save.wrongSearchCriteria=You have entered invalid search criteria. The following characters are not supported: *, /, (,)
+searchAgent.save.tooManySearchAgents=Agent cannot be saved because the maximum number of agents ({0}) is exhausted.
+searchAgent.premiumTeaser=With a BASIC account, you only have 1 search agent available. Do you want to create more agents and be able to set them up?
+searchAgent.premiumTeaserButton=Get a PREMIUM membership!
+searchAgent.searchTermHint=Use a comma to separate
+searchAgent.edit=Edit
+searchAgent.view=View
+searchAgent.showProjects=Show results
+searchAgent.delete=Delete
+searchAgent.projectList=Projects
+searchAgent.noProjectsFoundPart1=Sorry, we couldn''t find any results for your entry.
+searchAgent.noProjectsFoundPart2=Tip: Check the search query, any abbreviations and edit the entry.
+searchAgent.preview=View
+
+searchAgent.editForm.hint.name=Search Agent Name (up to 100 characters)
+searchAgent.editForm.hint.skills=Select up to 10 qualifications that the project may require.
+searchAgent.editForm.hint.term=Search for specific keywords in the project description.
+searchAgent.editForm.hint.location=Location where the project takes place.
+
+searchAgent.deactivate.title=Deactivate search agent
+searchAgent.deactivate.message=To unsubscribe from search agent emails, click the deactivate button. The search agent can be reactivated after logging in to your account.
+searchAgent.deactivate.deactivationButtonText=Deactivate
+searchAgent.deactivate.cancelButtonText=Continue subscribing
+searchAgent.deactivate.success=Search agent was successfully deactivated.
+searchAgent.deactivate.error=An error occurred while deactivating the search agent.
+
+searchAgent.automatic.hint=This search agent is automatically updated based on the information in your profile. Please update your profile for the best search results.
+
+# EMAIL: Search agent
+searchAgent.email.title=Search Agent {0}
+searchAgent.email.header=Hello
+searchAgent.email.content=Your search agent "{0}" found
+searchAgent.email.newProjects=New projects
+searchAgent.email.info=Search Agent Settings
+searchAgent.email.term=Search term
+searchAgent.email.location=ZIP, city, or county
+searchAgent.email.skills=Qualification
+searchAgent.email.searchagentButton=Search Agent
+searchAgent.email.deactivationLink=This email was sent to you based on an active search agent on freelance.co.uk. If you no longer wish to receive this email, please click on the following link to <a href="{0}">deactivate</a>.
+
+
+### SUBSCRIPTIONS
+subscription.duration.days.one=day
+subscription.duration.days.few={0} days
+subscription.duration.days.many={0} days
+subscription.duration.months.one=month
+subscription.duration.months.few={0} months
+subscription.duration.months.many={0} months
+subscription.duration.year.one=year
+
+subscriptions.mySubscriptions=My membership
+subscriptions.mySubscriptions.invoiceData=Billing information
+subscriptions.mySubscriptions.days=Days
+subscriptions.mySubscriptions.durationYear=Year
+subscriptions.mySubscriptions.validFrom=Active from
+subscriptions.mySubscriptions.validTo=Active until
+subscriptions.mySubscriptions.price=Price
+subscriptions.mySubscriptions.monthly=/ Month
+subscriptions.mySubscriptions.monthly.tooltip=Month=30 days
+subscriptions.mySubscriptions.discount=Discount
+subscriptions.mySubscriptions.invoiceData.title=Billing Information and Invoices
+subscriptions.mySubscriptions.invoiceData.companyName=Company name
+subscriptions.mySubscriptions.invoiceData.companyAddress=Company address
+subscriptions.mySubscriptions.invoiceData.contactAddress=Contact address
+subscriptions.mySubscriptions.invoiceData.contactPerson=Contact person
+subscriptions.mySubscriptions.invoiceData.contactPhone=Telephone number
+subscriptions.mySubscriptions.invoiceData.contactEmail=Email
+subscriptions.mySubscriptions.invoiceData.vatId=VAT number
+
+subscriptions.mySubscriptions.paymentType=Payment method
+subscriptions.mySubscriptions.paymentType.card=Payment card
+subscriptions.mySubscriptions.paymentType.invoice=Transfer from account
+subscriptions.mySubscriptions.savedCard=Subscribed card
+subscriptions.mySubscriptions.savedCard.changeAction=Change payment details
+
+subscriptions.mySubscriptions.contactPerson.title=Contact freelance.co.uk
+subscriptions.mySubscriptions.contactPerson.contactData=<p><b>freelance.co.uk</b></p><p>info@freelance.co.uk</p>
+
+subscriptions.mySubscriptions.status.company.title=Current membership status
+subscriptions.mySubscriptions.status.company.additionalContact=
+subscriptions.mySubscriptions.status.company.yourPriceTitle=
+subscriptions.mySubscriptions.status.company.price={0} GBP / contact (excl. VAT)
+subscriptions.mySubscriptions.status.company.infoMessage=If you want to contact other freelancers, please contact us at info@freelance.co.uk.
+subscriptions.mySubscriptions.status.company.noSubscription=You have an active <b>Basic</b> membership:
+subscriptions.mySubscriptions.status.company.buySubscriptionHint=<span><i class="fa fa-fw fa-times text-red"></i> Unable to send direct message </span> <br> <span> <i class="fa fa-fw fa-times text-red"> </i> Unable to display freelancer contact details </span> <br> <i class="fa fa-fw fa-times text-red"> </i> Address with the project <span class="text-red"> 10x / month </span> <br>
+subscriptions.mySubscriptions.status.company.buySubscription=Upgrade membership
+subscriptions.mySubscriptions.status.company.payInvoice=Pay
+subscriptions.mySubscriptions.status.company.withSubscription=You have an active <b>Premium</b> membership:
+subscriptions.mySubscriptions.status.company.withSubscriptionHint=<i class="fa fa-check text-green"> </i> <span class="text-green"> Unlimited </span> address with project <br> < i class="fa fa-check text-green"> </i> <span class="text-green"> 25 </span> direct messages / month <br> <i class="fa fa-check text- green "> </i> <span class =" text-green "> 25 </span> display of contact details / month
+
+subscriptions.mySubscriptions.status.serviceProvider.title=Current membership status
+subscriptions.mySubscriptions.status.serviceProvider.noSubscription=You have an active <b> Basic </b> membership:
+subscriptions.mySubscriptions.status.serviceProvider.buySubscriptionHint=<i class="text-red fa fa-times"> </i> Limited display of project details <br> <i class="text-red fa fa-times"> < / i> 1 project offer / day <br> <i class="text-red fa fa-times"> </i> Limited profile visibility for unregistered users
+subscriptions.mySubscriptions.status.serviceProvider.buySubscription=Upgrade membership
+subscriptions.mySubscriptions.status.serviceProvider.withSubscription=<span> <i class="fa fa-check text-green"> </i> <b class="text-success"> Complete </b> project details </span> <br> <span> <i class="fa fa-check text-green"> </i> <b class="text-success"> Unlimited </b> number of project offers </span> < br> <span> <i class="fa fa-check text-green"> </i> <b class="text-success"> Unlimited </b> number of search agents </span>
+subscriptions.mySubscriptions.status.serviceProvider.individualPremiumMessage=
+
+subscriptions.mySubscriptions.currentSubscriptionMessage=You have an active <b> {0}</b> membership.
+subscriptions.mySubscriptions.upgrade=Upgrade membership
+subscriptions.mySubscriptions.buy=Membership offer
+subscriptions.mySubscriptions.saveWhenExtend=
+subscriptions.mySubscriptions.extend=
+subscriptions.mySubscriptions.onlyMasterUserCanManage=Only the main user can manage the membership
+
+subscriptions.mySubscriptions.with=inclusive
+subscriptions.mySubscriptions.vat=VAT
+
+subscriptions.mySubscriptions.invoices=Invoices
+subscriptions.mySubscriptions.invoices.download=download PDF
+
+subscriptions.mySubscriptions.automaticRenewal=Automatic renewal
+subscriptions.mySubscriptions.renewalDisabled=Will not be renewed
+subscriptions.mySubscriptions.abortSubscription=Do not renew automatically
+subscriptions.mySubscriptions.subscriptionAborted=Automatic renewal has been canceled.
+subscriptions.mySubscriptions.resumeSubscription=Enable auto-renewal
+subscriptions.mySubscriptions.subscriptionResumed=Automatic renewal is active.
+
+subscriptions.mySubscriptions.paidSuccessfully=Membership has been successfully paid.
+subscriptions.mySubscriptions.cardSetupSuccessfully=Tab has been set.
+subscriptions.mySubscriptions.notPayedInfo=Membership has not been paid yet. <a ng-href="{0}" style="font-weight: bold; text-decoration: underline; text-transform: uppercase" target="_self">Pay &raquo;</a>
+subscriptions.mySubscriptions.prolongationNotPayedInfo=Membership renewal has not yet been paid. <a ng-href="{0}" style="font-weight: bold; text-decoration: underline; text-transform: uppercase" target="_self">Pay &raquo;</a>
+subscriptions.mySubscriptions.removeCardSetup.success=Subscription has been removed.
+subscriptions.mySubscriptions.removeCardSetup.error=An error occurred while removing the card. Please try again later.
+subscriptions.mySubscriptions.trialExpirationMessage=You have an active Premium membership that expires on {0}.
+
+subscriptions.invoicePayment.title=Pay Invoice
+subscriptions.invoicePayment.payInvoice.paymentType.card=Payment card
+subscriptions.invoicePayment.payInvoice.paymentType.invoice=Bank transfer
+subscriptions.invoicePayment.payInvoice.message=<b> Thank you for ordering a membership. </b> <br> You can pay for the ordered membership below using a credit card or change the form of payment to invoice.
+subscriptions.invoicePayment.payInvoice.invoicePaymentInfo=In case of payment by bank transfer, the membership will be activated only after processing the payment (1 to 2 working days). <br> <br> The invoice will be sent to your e-mail, at the same time it will be possible to download it after completion orders.
+subscriptions.invoicePayment.payInvoice.cardPaymentInfo=Membership will be activated as soon as the ordering process is completed. <br> Payment by card is made through a certified payment gateway from Stripe. freelance.co.uk does not store card data or make it available. By confirming the payment, you give permission to save your payment card details for future payments. You can set up automatic membership renewal or change your credit card in the "My Membership" section.
+subscriptions.invoicePayment.payInvoice.cardDataMissing=Enter card information.
+subscriptions.invoicePayment.payInvoice.paymentType.card.savedCard=Subscribed card
+subscriptions.invoicePayment.payInvoice.paymentType.card.changeCard=Subscribe to another card
+subscriptions.invoicePayment.payInvoice.button=Pay
+subscriptions.invoicePayment.payInvoice.card.button=Pay by card
+subscriptions.invoicePayment.payInvoice.savedCard.button=Confirm payment
+subscriptions.invoicePayment.payInvoice.invoice.button=Show invoice
+subscriptions.invoicePayment.payInvoice.invoice.saveSettings.button=Set payment method and view invoice
+
+subscriptions.invoicePayment.showInvoice.message=<p> <b> The invoice has already been paid. </b> Thank you. </p> <p> Click the button below to view the invoice. </p>
+subscriptions.invoicePayment.showInvoice.button=Show invoice
+
+subscriptions.invoicePayment.invoiceReturn.success=Payment was successful. Thank you.
+subscriptions.invoicePayment.invoiceReturn.error=Failed to verify payment status. You can check the current status of your payment in the My Membership section.
+subscriptions.invoicePayment.invoiceReturn.notPaid=Failed to verify payment status. You can check the current status of your payment in the My Membership section.
+
+
+subscriptions.paymentSetup.title=Payment Settings
+subscriptions.paymentSetup.card.save=Set up a card
+subscriptions.paymentSetup.card.pay=Pay by card
+
+subscriptions.paymentSetup.paymentType.card=Payment by card
+subscriptions.paymentSetup.card.change=Change subscription
+subscriptions.paymentSetup.card.remove=Remove card
+subscriptions.paymentSetup.paymentType.save=Save settings
+subscriptions.paymentSetup.removeCardDialog.button=Delete
+subscriptions.paymentSetup.removeCardDialog.title=Subscription card confirmation
+subscriptions.paymentSetup.removeCardDialog.text=Are you sure you want to delete this card? Removing the card from your account will also interrupt the automatic renewal of Premium membership.
+subscriptions.paymentSetup.cardPaymentInfo=Payment by card is made through a certified Stripe payment gateway. freelance.co.uk does not store card data or make it available. By confirming the payment, you give permission to save your payment card details for future payments. You can set up automatic membership renewal or change your credit card in the "My Membership" section.
+
+subscriptions.paymentSetup.invoicePaymentInfo=We will always send you an invoice by e-mail or you can download it in the My Membership section.
+
+subscriptions.prolongSubscription.tokenInvalid=The link has expired. Please place a new order in the My Membership section or contact us at info@freelance.co.uk.
+subscriptions.prolongSubscription.tokenUsedAlready=The link has expired - the membership has already been renewed. You can find more information in the My Membership section or contact us at info@freelance.co.uk.
+subscriptions.prolongSubscription.prolongationError=Membership could not be renewed. Please place a new order in the My Membership section or contact us at info@freelance.co.uk.
+
+subscriptions.wizard.createSubscription=Upgrade membership
+subscriptions.wizard.selectTarifStep=Subscription selection
+subscriptions.wizard.selectTarifStep.title=Select membership length
+subscriptions.wizard.selectTarifStep.selectButton=Order for {0}
+subscriptions.wizard.invoiceDataStep=Billing information
+subscriptions.wizard.invoiceDataStep.title=Enter billing information
+subscriptions.wizard.companyInformationStep=Company information
+subscriptions.wizard.serviceProviderInformationStep=Billing information
+subscriptions.wizard.subscriptionCreatePending=Please wait, invoice is being generated.
+subscriptions.wizard.subscriptionCreateAndPaymentPending=Please wait, communication with payment gateway is in progress.
+
+
+subscriptions.wizard.paymentStep=Payment method
+subscriptions.wizard.paymentStep.title=Choose payment method
+subscriptions.wizard.paymentStep.forMembershipName=membership <b>{0}</b>
+
+subscriptions.wizard.confirmationStep.invoice.title=Order created
+subscriptions.wizard.confirmationStep.invoice.message=Your Premium membership will be activated upon receipt of payment. <br> Below is a summary of the payment details including the link to download the advance invoice. <br> We have also sent the invoice to your e-mail.
+subscriptions.wizard.confirmationStep.invoice.paymentData=<b>Bank name:</b> Raiffeisenbank <br> <b>Bank account:</b> 1422026002/5500 <br> <b>Variable symbol:</b> {0} <br> <b>Amount:</b> {1} <br>
+subscriptions.wizard.confirmationStep.invoice.button=Download invoice
+subscriptions.wizard.confirmationStep.cardExternal.message=Your Premium membership will be activated upon receipt of payment. <br> Click on the button below to be redirected to the payment gateway.
+subscriptions.wizard.confirmationStep.cardExternal.button=Go to payment
+subscriptions.wizard.confirmationStep.paymentCard.success.title=Successfully paid
+subscriptions.wizard.confirmationStep.paymentCard.success.message=Premium membership order has been successfully paid, you can now start enjoying all Premium benefits. <br> Your Premium membership is valid until {0}, then it will be automatically renewed. <br> Automatic settings You can renew your membership or change your credit card in the "My Membership" section.
+subscriptions.wizard.confirmationStep.paymentCard.pending.title=Payment is being verified
+subscriptions.wizard.confirmationStep.paymentCard.pending.message=Premium membership order has been successfully created, membership will be activated immediately after payment verification.
+
+# TODO: deprecated
+subscriptions.wizard.createAccountStep=Create an account
+subscriptions.wizard.summaryStep=Subscriptions
+
+subscriptions.wizard.selectedSubscription=Membership
+subscriptions.wizard.totalPrice=Total price
+subscriptions.wizard.selectedDurationDays=Days
+subscriptions.wizard.selectedDurationYear=Year
+subscriptions.wizard.durationYear=12 months
+subscriptions.wizard.durationMonth=Month
+subscriptions.wizard.durationMonthHint=Month=30 days
+subscriptions.wizard.nextStep=Next step
+subscriptions.wizard.gotoPaymentStep=Continue to payment method
+subscriptions.wizard.order=Subscribe
+subscriptions.wizard.orderAndPay=Subscribe and pay
+
+subscriptions.wizard.insertVoucherCode=I have a discount voucher
+subscriptions.wizard.invalidVoucherCode=Invalid discount voucher
+
+subscriptions.wizard.createAccountStep.accountCreated=Thank you for registering!
+subscriptions.wizard.createAccountStep.whatsNextAdvice=We are sending you an email confirmation. <br /> <strong> Please click the link to activate your account </strong>
+subscriptions.wizard.createAccountStep.email=Email address
+subscriptions.wizard.createAccountStep.password=Password
+subscriptions.wizard.createAccountStep.password2=Repeat password
+subscriptions.wizard.createdSuccessfully=Congratulations, you have just gained membership.
+subscriptions.wizard.unableToCreateSubscription=
+subscriptions.wizard.tarifStep.tarifSubscriptionExists=
+subscriptions.wizard.tarifStep.noTarifs=
+subscriptions.wizard.createSubscriptionCompanyInformationStep.differentInvoiceData=Different billing information
+subscriptions.wizard.createSubscriptionSummaryStep.tarifBox=Membership details
+subscriptions.wizard.createSubscriptionSummaryStep.tarif=Membership
+subscriptions.wizard.createSubscriptionSummaryStep.price=Price
+subscriptions.wizard.createSubscriptionSummaryStep.duration=Validity
+subscriptions.wizard.createSubscriptionSummaryStep.dateEnd=Valid until
+subscriptions.wizard.createSubscriptionSummaryStep.invoiceDataBox=Billing information
+subscriptions.wizard.createSubscriptionSummaryStep.paymentBox=The order can be paid for by credit card or bank transfer.
+subscriptions.wizard.createSubscriptionSummaryStep.paymentType=Payment
+subscriptions.wizard.createSubscriptionSummaryStep.paymentType.card=By credit card
+subscriptions.wizard.createSubscriptionSummaryStep.paymentType.invoice=Transfer (Invoice)
+subscriptions.wizard.createSubscriptionSummaryStep.contactBox=Contact us
+subscriptions.wizard.createSubscriptionSummaryStep.contactEmail=Email
+subscriptions.wizard.createSubscriptionSummaryStep.contactEmail.value=info@freelance.co.uk
+subscriptions.wizard.createSubscriptionSummaryStep.contactPhone=Phone number
+subscriptions.wizard.createSubscriptionSummaryStep.contactPhone.value=
+subscriptions.wizard.createSubscriptionSummaryStep.infoBox=Information
+subscriptions.wizard.createSubscriptionSummaryStep.info=Your membership will automatically renew for the period of your choice at the end of your validity. \
+Any discounts apply only to the first period of your membership.
+
+
+subscriptions.wizard.applyVoucher=Apply
+subscriptions.wizard.discount=Discount
+subscriptions.wizard.discount.oneTime=for the first period
+subscriptions.wizard.validTo=Valid until
+
+js.subscriptions.create.failed=An error occurred while creating the order. Check the entered data and try again, or contact us at info@freelance.co.uk.
+js.subscriptions.payment.failed=Payment was not successful. Check the entered data and try again, or contact us at info@freelance.co.uk.
+
+
+# statuses translated CommonFunctions.getInvoiceStatusDescription
+subscriptions.invoice.status.created=Created
+subscriptions.invoice.status.sent=Submitted
+subscriptions.invoice.status.printed=Awaiting payment
+subscriptions.invoice.status.overdue=Overdue
+subscriptions.invoice.status.paid=Paid
+subscriptions.invoice.status.deleted=Deleted
+subscriptions.invoice.status.cancelled=Canceled
+
+subscriptions.invoice.type.invoice=Invoice
+subscriptions.invoice.type.proforma=Advance invoice
+subscriptions.invoice.type.creditNote=Corrected invoice
+
+subscriptions.invoice.note.recurring=Your membership will be renewed automatically after its expiration.
+subscriptions.invoice.description=We charge you for your membership on freelance.co.uk
+subscriptions.invoice.position.defaultText={0} (Validity: from {1} to {2})
+subscriptions.invoice.position.discountText=Discount
+# note - placeholders are replaced in the suite (so suite data are used)
+subscriptions.invoice.paymentHint=Note: Membership is automatically renewed at the end of the period. \\n \
+\\n \
+Due date: [Invoice.PaymentTerm] \\n \
+\\n \
+Please transfer the total amount to this account: \\n \
+[Freelancer.AccountHolder] \\n \
+Account: [Freelancer.AccountNumber] \\n \
+Bank code: [Freelancer.BankNumber] - [Freelancer.BankName] \\n \
+IBAN: [Freelancer.IBAN] \\n \
+BIC: [Freelancer.BIC]
+
+subscriptions.invoice.mail.subject=freelance.co.uk | Billing
+subscriptions.invoice.mail.message={0}, <br> \
+<br> \
+The current invoice for your {1} membership at www.freelance.co.uk is now available for download here: <br> \
+<a href="{2}">{2}</a> <br> \
+<br> \
+Best regards <br> \
+Your freelance.co.uk team
+
+#todo: actually find how to pass account info back to berater
+subscriptions.invoice.overdueMail.subject=freelance.co.uk | Unpaid billing
+subscriptions.invoice.overdueMail.message={0}, <br> \
+<br> \
+<br> \
+Client number <tbd> an. <br> \
+{6} <br> \
+<br> \
+You can find the invoice for your membership here: <br> \
+<a href="{7}">{7}</a> <br> \
+<br> \
+If you have any questions, do not hesitate to contact us. <br> \
+If you have already settled the amount requested, please consider this email to be redundant. <br> \
+<br> \
+Best regards <br> \
+Your freelance.co.uk team
+
+
+# SUBSCRIPTION EMAILS
+subscriptions.email.benefits.freelancer=Which benefits are included in the PREMIUM membership: <br /> \
+  <ul> \
+    <li> Direct access to all open projects on our marketplace </li> \
+    <li> Unlimited project applications </li> \
+    <li> All details of the project provider including direct access via direct message </li> \
+  </ul>
+subscriptions.email.benefits.company=Which benefits are included in the PREMIUM Membership: <br /> \
+  <ul> \
+    <li> Unlimited access to the freelancer marketplace </li> \
+    <li> Unlimited postings of project offers </li> \
+    <li> Direct access to freelancers via direct message or contact details (25 per month) </li> \
+  </ul>
+subscriptions.email.footer=Best regards<br>Your freelance.co.uk team
+
+# EMAIL: New subscription order confirmation
+subscriptions.newSubscriptionNotifyMail.subject=freelance.co.uk | Membership order
+subscriptions.newSubscriptionNotifyMail.message=Hello, <br /> <br /> \
+Thank you for ordering a {0} membership. We have processed your order and your new membership will be activated immediately after payment is proceeded. <br /> <br /> \
+<table style="width: 100%; border: 1px solid gray; border-collapse: collapse;"> \
+  <tr> <td style="border: 1px solid #bbb; padding: 5px; font-weight: bold;" width="75%"> Membership </td> <td style="border: 1px solid #bbb; padding: 5px; font-weight: bold;" width="25%">Price</td></tr> \
+  <tr> <td style="border: 1px solid #bbb; padding: 5px;" width="75%"> {1} </td> <td style="border: 1px solid #bbb; padding: 5px;" width="25%">{2}</td> </tr> \
+</table> <br /> \
+Best regards, <br /> \
+Your freelance.co.uk team <br /> <br /> <br /> \
+<a href="https://www.freelance.co.uk/terms">Terms and Conditions</a> <br /> \
+<a href="https://www.freelance.co.uk/data-policy">Data Policy</a> <br />
+
+# EMAIL - INTERNAL: subscription order system notification
+subscriptions.newSubscriptionSystemNotificationEmail.new.subject=freelance.co.uk | New membership ({0})
+subscriptions.newSubscriptionSystemNotificationEmail.prolongation.subject=freelance.co.uk | Prolonged membership ({0})
+subscriptions.newSubscriptionSystemNotificationEmail.message=freelance.co.uk membership info: <br> <br> \
+Type: {0} <br>\
+Date start: {1}<br> \
+Date end: {2}<br> \
+Payment type: {3}<br> \
+Name: {4} <br> \
+UserID: {5}
+
+# EMAIL: Subscription expiration notification - subscription is going to expire - with link to invoice
+subscriptions.expirationNotificationMail.subject=freelance.co.uk | Your PREMIUM membership will expire in 14 days
+subscriptions.expirationNotificationMail.message=<p> Hello, </p> \
+  <p>Thank you for using the freelance.co.uk marketplace. We hope that you are satisfied with our community and services.  </p> \
+  <p> Your Premium membership will expire on {0}. </p> \
+  <p> Please find attached a pro-forma invoice for your membership renewal. You can also find the invoice in the "My Membership" section after logging in.  </p> <br />
+subscriptions.expirationNotificationMail.invoiceLinkText=Pay invoice
+subscriptions.expirationNotificationMail.additionalInfo=<p>If the pro-forma invoice is not paid, your freelance.co.uk account will automatically be switched back to the free BASIC membership at expiration date. </p>
+
+# EMAIL: subscription paid system notification email
+subscriptions.invoicePaidSystemNotificationEmail.subject=freelance.co.uk | Subscription invoice paid
+subscriptions.invoicePaidSystemNotificationEmail.message=Invoice for subscription ID: {0} has been paid. <br /> <br /> \nUser: {1} <br /> \nSubscription type: {2} <br /> \nPrice: {3} <br /> \n
+
+# EMAIL: subscription payment failed notification email - with link to invoice
+subscriptions.paymentFailedNotificationMail.subject=freelance.co.uk | Your PREMIUM membership has not been paid
+subscriptions.paymentFailedNotificationMail.message=<p> Hello, </p> \
+  <p> Thank you for using the freelance.co.uk marketplace. We hope that you are satisfied with our community and services.  </p> \
+  <p> Unfortunately, we were unable to charge your account for your PREMIUM membership which expired on {0}. </p> \
+  <p> To solve this situation, you can make a payment or edit your payment information by clicking the button below. </p> <br />
+subscriptions.paymentFailedNotificationMail.invoiceLinkText=Pay
+subscriptions.paymentFailedNotificationMail.additionalInfo=<p>If your membership is not paid, your freelance.co.uk account will automatically be switched back to the free BASIC membership. </p>
+
+
+# EMAIL: Subscription downgraded notification
+subscriptions.downgradeNotificationMail.subject=freelance.co.uk | You are now using BASIC membership
+subscriptions.downgradeNotificationMail.message=Hello, <br /> \
+  Your PREMIUM membership expired today, and your account has been switched to the free BASIC membership. \
+  You can return to the benefits of the PREMIUM membership at any time by upgrading your account here. <br /> <br />
+subscriptions.downgradeNotificationMail.orderButton.text=Subscribe to PREMIUM
+
+# EMAIL - INTERNAL: subscription downgraded
+subscriptions.downgradeSystemNotificationMail.subject=freelance.co.uk | Membership expired - not prolonged ({0})
+subscriptions.downgradeSystemNotificationMail.message=Membership info: <br><br>\
+Type: {0} <br>\
+Date start: {1}<br> \
+Date end: {2}<br> \
+Payment type: {3}<br> \
+Name: {4} <br> \
+UserID: {5}
+
+subscriptions.service.setupNewCardPayment.error=Card setup has been denied. Check the entered data or enter another card.
+subscriptions.service.setupNewCardPayment.StripeError=The selected card cannot be used for payments. Check the entered data or enter another card.
+subscriptions.service.payInvoiceByCard.error=Payment was declined. Check the entered data or enter another card.
+subscriptions.service.payInvoiceByCard.StripeError=Payment failed for selected card. Check the entered data or enter another card.
+
+
+# MESSAGES (messenger system)
+messages.send.writeMessageToUserButton=Write message
+messages.send.writeMessageToUserButtonSubscriptionTeaser=
+messages.send.writeMessageToUserButtonNotActiveHint=This user is not in your contacts. Please click on the button "Show contact details" first.
+messages.send.noPermissionToSend=Unable to send message to recipients.
+messages.send.tooManyMessagesSent=The maximum number of sent messages has been exceeded.
+messages.send.messageSent=You have sent a message
+messages.send.messageReplySent=You have sent a reply
+
+# EMAIL: New message notification
+messages.notifyMailMail.messageSubject=You have a new message on freelance.co.uk
+messages.notifyMailMail.message={0}, <br> <br> \
+                                You have received a new message in your freelance.co.uk mailbox<br> <br> \
+                                From: {1} <br> \
+                                Subject: {2} <br> \
+                                Message: <br> \
+                                <p style="padding: 30px; background: # f0f0f0"; font-style: italic; width: 100%;> {3} </p> \
+                                <br> <br> \
+                                Click on the following link to view received message: <br> \
+                                <div style="margin-top: 5px; text-align: center;"> <a href="{4}" style="border-radius: 2px; text-decoration: none; color: #ffffff; background- color: #76c8d3; border-color: #76c8d3; display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; border: 1px solid transparent; white- space: nowrap; padding: 10px 15px; font-size: 18px; line-height: 1.42857143;">Reply</a> </div> <br> <br> \
+                                Best regards <br> \
+                                Your freelance.co.uk team
+
+messages.messageThreadList.title=Messages
+messages.messageThreadList.newMessageTag=New message
+messages.messageThreadList.tabs.inbox=Received
+messages.messageThreadList.tabs.outbox=Sent
+messages.messageThreadList.tabs.trash=Deleted
+messages.messageThreadList.noMessages=You have no messages in the folder.
+messages.messageThreadList.moveToTrashConfirm=Are you sure you want to delete this conversation?
+messages.messageThreadList.deletePermanentlyConfirm=Are you sure you want to delete this conversation? It will not be possible to undo this action.
+messages.messageThreadList.undelete=Refresh
+messages.deleteThreadMessage.successMessage=You have deleted the conversation
+messages.undeleteThreadMessage.successMessage=You have resumed a conversation
+
+messages.viewMessageThread.title=Messages
+messages.viewMessageThread.from=from
+messages.viewMessageThread.to=to
+messages.viewMessageThread.createdAt=Created
+messages.viewMessageThread.read=Read
+messages.viewMessageThread.replyTo=Reply to "{0}"
+messages.viewMessageThread.subject=Subject
+messages.viewMessageThread.deletedConversationShowMessage=Click here to view deleted parts of the conversation.
+messages.viewMessageThread.uploadFile=Upload attachment
+messages.viewMessageThread.replyButton=Send
+messages.viewMessageThread.cannotReplyToDeletedUser=User account no longer exists, you can no longer write or receive messages in this chat.
+
+# NOTIFICATIONS
+notifications.notification.newMessage.description={0} has sent you a new message
+notifications.notification.newProjectOffer.description={0} has sent you a new offer
+notifications.notification.newProjectProposal.description={0} has sent you a new offer
+notifications.notification.fromDeletedUser=Notified user
+notifications.notificationsBox.title=notifications
+notifications.notificationsBox.seeAll=View all notifications »
+notifications.notificationsBox.noNotifications=You have no notifications yet
+
+
+notifications.notificationsList.title=notifications
+notifications.notificationsList.noNotifications=You have no notifications yet
+
+# APPLICATION # todo - better pages!
+application.pageNotFoundMessage=Sorry, we couldn''t find the page you requested.
+application.pageNotFoundTitle=Page not found
+
+cookieconsent.message=Cookies help us deliver our services. By using our services, you agree to their use. More on the page
+cookieconsent.link=Data Policy
+cookieconsent.button=OK
+
+unsupportedBrowser.message=freelance.co.uk does not support the browser you are using.
+unsupportedBrowser.upgradeTo=To use our website, we recommend upgrading to one of the following supported browsers
+unsupportedBrowser.button=Upgrade
+
+# SEO texts
+seo.profileList.home.pageTitle=Thousands of freelancer profiles
+seo.profileList.home.h1=All freelancer profiles
+seo.profileList.home.metaDescription=Wide selection of freelancers. At freelance.co.uk you will find independent professionals who will help implement your projects.
+seo.profileList.paging.titleSuffix=- {0}
+seo.profileList.paging.metaDescriptionSuffix=- {0}. page
+seo.profileList.profilesInCategory.pageTitle={0} - Profiles
+seo.profileList.profilesInCategory.metaDescription=Selection of freelancers for specialization {0}. At freelance.co.uk you will find independent professionals who will help implement your projects.
+seo.profileList.profilesInCategory.seoDescription=Hire independent professionals who have experience and specialization <b>{0}</b> and will help implement your projects on time and with a professional approach. Outsource services and choose a freelancer with relevant experience.
+seo.profileList.profilesInCategoryWithLocation.pageTitle={0} - {1} - Profiles
+seo.profileList.profilesInCategoryWithLocation.metaDescription=Wide selection of freelancers for specialization {0} in {1}. At freelance.co.uk you will find independent professionals who will help implement your projects.
+seo.profileList.profilesInCategoryWithLocation.seoDescription=Hire independent professionals who have experience and specialization <b>{0}</b> and help you implement your projects on time and with a professional approach. Outsource services and choose a freelancer with relevant experience in <b>{1}</b>.
+
+seo.projectList.home.pageTitle=Daily new projects for freelancers
+seo.projectList.home.h1=All projects
+seo.projectList.home.metaDescription=Looking for new orders? Use your skills on the freelance.co.uk portal and get new projects.
+seo.projectList.projectsInCategory.pageTitle={0} - Projects
+seo.projectList.projectsInCategory.metaDescription=Looking for new orders from {0}? Use your skills on the freelance.co.uk portal and get new projects.
+seo.projectList.projectsInCategory.seoDescription=Are you looking for new orders from <b>{0}</b>? Use your skills in projects that cannot do without your help. In this section you will find cooperation on one-off and long-term projects in the field of {0}.
+seo.projectList.projectsInCategoryWithLocation.pageTitle={0} - {1} - Projects
+seo.projectList.projectsInCategoryWithLocation.metaDescription=Looking for new orders from {0} in {1}? Use your skills on the freelance.co.uk portal and get new projects.
+seo.projectList.projectsInCategoryWithLocation.seoDescription=Are you looking for new orders from <b>{0}</b> in <b> {1} </b>? Use your skills in projects that cannot do without your help. In this section you will find cooperation on one-off and long-term projects in the field of <b>{0}</b>.
+
+seo.skillCategories.hp.title=Skills Catalog
+seo.skillCategories.hp.freelancers.title=Freelancers by Skills
+seo.skillCategories.hp.projects.title=Projects by Categories
+seo.skillCategories.profiles.title=Freelancer Skills
+seo.skillCategories.projects.title=Project Categories
+
+#Terms and conditions
+terms.forBerater=For freelancers
+terms.forCompany=For companies
+
+# Languages
+languages.levels.basic=Beginner
+languages.levels.good=Advanced
+languages.levels.fluent=Fluent knowledge
+languages.levels.native=Native speaker
+
+
+# language.aa=
+# language.ab=
+# language.ace=
+# language.ach=
+# language.ada=
+# language.ady=
+# language.ae=
+language.af=Afrikaans
+# language.afh =
+# language.ain =
+# language.ak =
+# language.akk =
+# language.ale =
+# language.alt =
+language.am=Amharic
+# language.an =
+# language.ang =
+# language.anp =
+language.ar=Arabic
+# language.ar_001 =
+# language.arc =
+# language.arn =
+# language.arp =
+# language.arw =
+# language.as =
+# language.ast =
+# language.av =
+# language.awa =
+# language.ay =
+# language.az =
+# language.az =
+# language.ba =
+# language.bal =
+# language.ban =
+# # language.bas =
+language.be=Belarusian
+# language.bej =
+# language.bem =
+language.bg=Bulgarian
+# language.bho =
+language.bi=Bislama
+# language.bik =
+# language.bin =
+# language.bla =
+# language.bm =
+language.bn=Bengali
+# language.bo =
+# language.br =
+# language.bra =
+language.bs=Bosnian
+# language.bua =
+# language.bug =
+# language.byn =
+# language.ca =
+# language.cad =
+# language.car =
+# language.cch =
+# language.ce =
+# language.ceb =
+# language.ch =
+# language.chb =
+# language.chg =
+# language.chk =
+# language.chm =
+# language.chn =
+# language.cho =
+# language.chp =
+# language.chr =
+# language.chy =
+# language.co =
+# language.cop =
+# language.cr =
+# language.crh =
+language.cs=Czech
+# language.csb =
+# language.cu =
+# language.cv =
+language.cy=Welsh
+language.da=Danish
+# language.dak =
+# language.dar =
+language.de=German
+# language.del =
+# language.den =
+# language.dgr =
+# language.din =
+# language.doi =
+# language.dsb =
+# language.dua =
+# language.dum =
+# language.dv =
+# language.dyu =
+# language.dz =
+# language.ee =
+# language.efi =
+# language.egy =
+# language.eka =
+language.el=Greek
+# language.elx =
+language.en=English
+# language.enm =
+# language.eo =
+language.es=Spanish
+language.et=Estonian
+# language.eu =
+# language.ewo =
+language.fa=Persian
+# language.fan =
+# language.fat =
+# language.ff =
+language.fi=Finnish
+language.fil=Filipino
+language.fj=Fijian
+# language.fo =
+# language.fon =
+language.fr=French
+# language.frm=
+# language.fro=
+# language.frr=
+# language.frs=
+# language.fur=
+# language.fy=
+language.ga=Irish
+# language.gaa =
+# language.gay =
+# language.gba =
+# language.gd =
+# language.gez =
+# language.gil =
+# language.gl =
+# language.gmh =
+language.gn=Guarani
+# language.goh =
+# language.gon =
+# language.gor =
+# language.got =
+# language.grb =
+# language.grc =
+# language.gsw =
+language.gu=Gujarati
+# language.gv =
+# language.gwi =
+# language.ha =
+# language.hai =
+# language.haw =
+language.he=Hebrew
+language.hi=Hindi
+# language.hil =
+# language.hit =
+# language.hmn =
+language.ho=Hiri-Motu
+language.hr=Croatian
+# language.hsb =
+# language.ht =
+language.hu=Hungarian
+# language.hup =
+language.hy=Armenian
+# language.hz =
+# language.ia =
+# language.iba =
+language.id=Indonesian
+# language.ie =
+# language.ig =
+# language.ii =
+# language.ik =
+# language.ilo =
+# language.inh =
+# language.io =
+language.is=Icelandic
+language.it=Italian
+# language.iu =
+language.ja=Japanese
+# language.jbo =
+# language.jpr =
+# language.jrb =
+# language.jv =
+language.ka=Georgian
+# language.kaa =
+# language.kab =
+# language.kac =
+# language.kaj =
+# language.kam =
+# language.kaw =
+# language.kbd =
+# language.kcg =
+# language.kfo =
+# language.kg =
+# language.kha =
+# language.kho =
+# language.ki =
+# language.kj =
+language.kk=Kazakh
+# language.kl =
+# language.km =
+# language.kmb =
+# language.kn =
+language.ko=Korean
+# language.kok =
+# language.kos =
+# language.kpe =
+# language.kr =
+# language.krc =
+# language.krl =
+# language.kru =
+# language.ks =
+language.ku=Kurdish
+# language.kum =
+# language.kut =
+# language.kv =
+# language.kw =
+# language.ky =
+language.la=Latin
+# language.lad =
+# language.lah =
+# language.lam =
+language.lb=Luxembourgish
+# language.lez =
+# language.lg =
+# language.li =
+# language.ln =
+language.lo=Lao
+# language.lol =
+# language.loz =
+language.lt=Lithuanian
+# language.lu =
+# language.lua =
+# language.lui =
+# language.lun =
+# language.luo =
+# language.lus =
+language.lv=Latvian
+# language.mad =
+# language.mag =
+# language.mai =
+# language.mak =
+# language.man =
+# language.mas =
+# language.mdf =
+# language.mdr =
+# language.men =
+# language.mg =
+# language.mga =
+# language.mh =
+# language.mi =
+# language.mic =
+# language.min =
+language.mk=Macedonian
+language.ml=Malayalam
+language.mn=Mongolian
+# language.mnc =
+# language.mni =
+# language.moh =
+# language.mos =
+# language.mr =
+# language.ms =
+language.mt=Maltese
+# language.mul =
+# language.mus =
+# language.mwl =
+# language.mwr =
+# language.my =
+# language.myv =
+# language.na =
+# language.nap =
+# language.nb =
+# language.nd =
+# language.nds =
+language.ne=Nepali
+# language.new =
+# language.ng =
+# language.nia =
+# language.niu =
+language.nl=Dutch
+# language.nn =
+language.no=Norwegian
+# language.nog=
+# language.non=
+# language.nqo=
+# language.nr=
+language.nso=Northern Sotho
+# language.nv =
+# language.nwc =
+# language.ny =
+# language.nym =
+# language.nyn =
+# language.nyo =
+# language.nzi =
+# language.oc =
+# language.oj =
+# language.om =
+# language.or =
+# language.os =
+# language.osa =
+# language.ota =
+# language.pa =
+# language.pag =
+# language.pal =
+# language.pam =
+# language.pap =
+# language.pau =
+# language.peo =
+# language.phn =
+# language.pi =
+language.pl=Polish
+# language.pon =
+# language.pro =
+# language.ps =
+language.pt=Portuguese
+# language.qu =
+# language.raj =
+# language.rap =
+# language.rar =
+# language.rm =
+# language.rn =
+language.ro=Romanian
+language.ro_MD=Moldovan
+# language.rom =
+# language.root =
+language.ru=Russian
+# language.rup =
+# language.rw =
+# language.sa =
+# language.sad =
+# language.sah =
+# language.sam =
+# language.sas =
+# language.sat =
+# language.sc =
+# language.scn =
+# language.sco =
+language.sd=Sindhi
+# language.se =
+# language.sel =
+# language.sg =
+# language.sga =
+# language.sh =
+# language.shn =
+# language.si =
+# language.sid =
+language.sk=Slovak
+language.sl=Slovenian
+# language.sm =
+# language.sma =
+# language.smj =
+# language.smn =
+# language.sms =
+# language.sn =
+# language.snk =
+language.so=Somali
+# language.sog =
+language.sq=Albanian
+language.sr=Serbian
+# language.srn =
+# language.srr =
+# language.ss =
+# language.st =
+# language.su =
+# language.suk =
+# language.sus =
+# language.sux =
+language.sv=Swedish
+# language.sw =
+# language.swb =
+# language.syc =
+# language.syr =
+language.ta=Tamil
+# language.te =
+# language.tem =
+# language.ter =
+# language.tet =
+# language.tg =
+language.th=Thai
+# language.ti =
+# language.tig =
+# language.tiv =
+# language.tk =
+# language.tkl =
+# language.tl =
+# language.tlh =
+# language.tli =
+# language.tmh =
+# language.tn =
+# language.to =
+# language.tog =
+# language.tpi =
+language.tr=Turkish
+# language.ts =
+# language.tsi =
+# language.tt =
+# language.tum =
+# language.tvl =
+# language.tw =
+# language.ty =
+# language.tyv =
+# language.udm =
+# language.ug =
+# language.uga =
+language.uk=Ukrainian
+# language.umb =
+# language.und =
+language.ur=Urdu
+language.uz=Uzbek
+# language.vai =
+# language.ve =
+language.vi=Vietnamese
+# language.vo =
+# language.vot =
+# language.wa =
+# language.wal =
+# language.war =
+# language.was =
+# language.wo =
+# language.xal =
+# language.xh =
+# language.yao =
+# language.yap =
+# language.yi =
+# language.yo =
+# language.yue =
+# language.za =
+# language.zap =
+# language.zbl =
+# language.zen =
+# language.zgh =
+language.zh=Chinese
+language.zu=Zulu
+# language.zun =
+# language.zza =
+
+# Countries
+countries.ad=Andorra
+countries.ae=United Arab Emirates
+countries.af=Afghanistan
+countries.ag=Antigua and Barbuda
+countries.ai=Anguilla
+countries.al=Albania
+countries.am=Armenia
+countries.an=Netherlands Antilles
+countries.ao=Angola
+countries.aq=Antarctica
+countries.ar=Argentina
+countries.as=American Samoa
+countries.at=Austria
+countries.au=Australia
+countries.aw=Aruba
+countries.ax=Åland
+countries.az=Azerbaijan
+countries.ba=Bosnia and Herzegovina
+countries.bb=Barbados
+countries.bd=Bangladesh
+countries.be=Belgium
+countries.bf=Burkina Faso
+countries.bg=Bulgaria
+countries.bh=Bahrain
+countries.bi=Burundi
+countries.bj=Benin
+countries.bl=Saint Barthelemy
+countries.bm=Bermuda
+countries.bn=Brunei
+countries.bo=Bolivia
+countries.br=Brazil
+countries.bs=Bahamas
+countries.bt=Bhutan
+countries.bv=Bouvet Island
+countries.bw=Botswana
+countries.by=Belarus
+countries.bz=Belize
+countries.ca=Canada
+countries.cc=Cocos Islands
+countries.cd=Democratic Republic of the Congo
+countries.cf=Central African Republic
+countries.cg=Congo
+countries.ch=Switzerland
+countries.ci=Ivory Coast
+countries.ck=Cook Islands
+countries.cl=Chile
+countries.cm=Cameroon
+countries.cn=China
+countries.co=Colombia
+countries.cr=Costa Rica
+countries.cs=Serbia
+countries.cu=Cuba
+countries.cv=Cape Verde
+countries.cx=Christmas Island
+countries.cy=Cyprus
+countries.cz=Czech Republic
+countries.de=Germany
+countries.dj=Djibouti
+countries.dk=Denmark
+countries.dm=Dominica
+countries.do=Dominican Republic
+countries.dz=Algeria
+countries.ec=Ecuador
+countries.ee=Estonia
+countries.eg=Egypt
+countries.eh=Western Sahara
+countries.er=Eritrea
+countries.es=Spain
+countries.et=Ethiopia
+countries.fi=Finland
+countries.fj=Fiji
+countries.fk=Falkland Islands
+countries.fm=Micronesia
+countries.fo=Faroe Islands
+countries.fr=France
+countries.ga=Gabon
+countries.gb=United Kingdom
+countries.gd=Grenada
+countries.ge=Georgia
+countries.gf=French Guiana
+countries.gg=Guernsey
+countries.gh=Ghana
+countries.gi=Gibraltar
+countries.gl=Greenland
+countries.gm=The Gambia
+countries.gn=Guinea
+countries.gp=Guadeloupe
+countries.gq=Equatorial Guinea
+countries.gr=Greece
+countries.gs=South Georgia and the South Sandwich Islands
+countries.gt=Guatemala
+countries.gu=Guam
+countries.gw=Guinea-Bissau
+countries.gy=Guyana
+countries.hk=Hong Kong
+countries.hm=Heard Island and McDonald Islands
+countries.hn=Honduras
+countries.hr=Croatia
+countries.ht=Haiti
+countries.hu=Hungary
+countries.id=Indonesia
+countries.ie=Ireland
+countries.il=Israel
+countries.im=Man
+countries.in=India
+countries.io=British Indian Ocean Territory
+countries.iq=Iraq
+countries.ir=Iran
+countries.is=Iceland
+countries.it=Italy
+countries.je=Jersey
+countries.jm=Jamaica
+countries.jo=Jordan
+countries.jp=Japan
+countries.ke=Kenya
+countries.kg=Kyrgyzstan
+countries.kh=Cambodia
+countries.ki=Kiribati
+countries.km=Comoros
+countries.kn=Saint Kitts and Nevis
+countries.kp=North Korea
+countries.kr=South Korea
+countries.kw=Kuwait
+countries.ky=Cayman Islands
+countries.kz=Kazakhstan
+countries.la=Laos
+countries.lb=Lebanon
+countries.lc=Saint Lucia
+countries.li=Liechtenstein
+countries.lk=Sri Lanka
+countries.lr=Liberia
+countries.ls=Lesotho
+countries.lt=Lithuania
+countries.lu=Luxembourg
+countries.lv=Latvia
+countries.ly=Libya
+countries.ma=Morocco
+countries.mc=Monaco
+countries.md=Moldova
+countries.me=Montenegro
+countries.mf=Saint Martin
+countries.mg=Madagascar
+countries.mh=Marshall Islands
+countries.mk=Macedonia
+countries.ml=Mali
+countries.mm=Myanmar
+countries.mn=Mongolia
+countries.mo=Macao
+countries.mp=Northern Mariana Islands
+countries.mq=Martinique
+countries.mr=Mauritania
+countries.ms=Montserrat
+countries.mt=Malta
+countries.mu=Mauritius
+countries.mv=Maldives
+countries.mw=Malawi
+countries.mx=Mexico
+countries.my=Malaysia
+countries.mz=Mozambique
+countries.na=Namibia
+countries.nc=New Caledonia
+countries.ne=Niger
+countries.nf=Norfolk
+countries.ng=Nigeria
+countries.ni=Nicaragua
+countries.nl=Netherlands
+countries.no=Norway
+countries.np=Nepal
+countries.nr=Nauru
+countries.nu=Niue
+countries.nz=New Zealand
+countries.om=Oman
+countries.pa=Panama
+countries.pe=Peru
+countries.pc=Pitcairn Islands
+countries.pf=French Polynesia
+countries.pg=Papua New Guinea
+countries.ph=Philippines
+countries.pk=Pakistan
+countries.pl=Poland
+countries.pm=Saint Pierre and Miquelon
+countries.pn=Pitcairn Islands
+countries.pr=Puerto Rico
+countries.ps=State of Palestine
+countries.pt=Portugal
+countries.pw=Palau
+countries.py=Paraguay
+countries.qa=Qatar
+countries.re=Reunion
+countries.ro=Romania
+countries.rs=Serbia
+countries.ru=Russian Federation
+countries.rw=Rwanda
+countries.sa=Saudi Arabia
+countries.sb=Solomon Islands
+countries.sc=Seychelles
+countries.sd=Sudan
+countries.se=Sweden
+countries.sg=Singapore
+countries.sh=Saint Helena
+countries.si=Slovenia
+countries.sj=Svalbard and Jan Mayen
+countries.sk=Slovakia
+countries.sl=Sierra Leone
+countries.sm=San Marino
+countries.sn=Senegal
+countries.so=Somalia
+countries.sr=Suriname
+countries.st=Sao Tome and Principe
+countries.sv=El Salvador
+countries.sy=Syria
+countries.sz=Swaziland
+countries.tc=Turks and Caicos Islands
+countries.td=Chad
+countries.tf=French Southern and Antarctic Lands
+countries.tg=Togo
+countries.th=Thailand
+countries.tj=Tajikistan
+countries.tk=Tokelau
+countries.tl=East Timor
+countries.tm=Turkmenistan
+countries.tn=Tunisia
+countries.to=Tonga
+countries.tr=Turkey
+countries.tt=Trinidad and Tobago
+countries.tv=Tuvalu
+countries.tw=Taiwan
+countries.tz=Tanzania
+countries.ua=Ukraine
+countries.ug=Uganda
+countries.um=United States Minor Outlying Islands
+countries.us=United States of America
+countries.uy=Uruguay
+countries.uz=Uzbekistan
+countries.va=Vatican
+countries.vc=Saint Vincent and the Grenadines
+countries.ve=Venezuela
+countries.vg=British Virgin Islands
+countries.vi=US Virgin Islands
+countries.vn=Vietnam
+countries.vu=Vanuatu
+countries.wf=Wallis and Futuna
+countries.ws=Samoa
+countries.ye=Yemen
+countries.yt=Mayotte
+countries.za=South Africa
+countries.zm=Zambia
+countries.zw=Zimbabwe
+
+
+# Nationalities
+nationalities.af=Afghan
+nationalities.al=Albanian
+nationalities.dz=Algerian
+nationalities.us=American
+nationalities.ad=Andorran
+nationalities.ao=Angolan
+nationalities.ai=Anguilla
+nationalities.ag=Antigua and Barbuda
+nationalities.ar=Argentine
+nationalities.am=Armenian
+nationalities.au=Australian
+nationalities.at=Austrian
+nationalities.az=Azerbaijani
+nationalities.bs=Bahamian
+nationalities.bh=Bahraini
+nationalities.bd=Bangladeshi
+nationalities.bb=Barbadian
+nationalities.by=Belarusian
+nationalities.be=Belgian
+nationalities.bz=Belizean
+nationalities.bj=Benin
+nationalities.bm=Bermuda
+nationalities.bt=Bhutanese
+nationalities.bo=Bolivian
+nationalities.ba=Bosnian
+nationalities.br=Brazilian
+nationalities.gb=British
+nationalities.bn=Brunei
+nationalities.bg=Bulgarian
+nationalities.bf=Burkinabé
+nationalities.bi=Burundian
+nationalities.kh=Cambodian
+nationalities.cm=Cameroonian
+nationalities.ca=Canadian
+nationalities.cv=Cape Verde
+nationalities.cf=Central African
+nationalities.td=Chadian
+nationalities.cl=Chilean
+nationalities.cn=Chinese
+nationalities.co=Colombian
+nationalities.cd=Congolese
+nationalities.cg=Congolese
+nationalities.ck=Cook Islands
+nationalities.cr=Costa Rican
+nationalities.hr=Croatian
+nationalities.cu=Cuban
+nationalities.cy=Cypriot
+nationalities.cz=Czech
+nationalities.dk=Danish
+nationalities.dm=Dominican
+nationalities.do=Dominican
+nationalities.nl=Dutch
+nationalities.ec=Ecuadorian
+nationalities.eg=Egyptian
+nationalities.er=Eritrean
+nationalities.ee=Estonian
+nationalities.et=Ethiopian
+nationalities.fk=Falkland Islands
+nationalities.fj=Fijian
+nationalities.fi=Finnish
+nationalities.fr=French
+nationalities.gq=Guinean
+nationalities.ga=Gabonese
+nationalities.gm=Gambian
+nationalities.ge=Georgian
+nationalities.de=German
+nationalities.gh=Ghanaian
+nationalities.gi=Gibraltar
+nationalities.gr=Greek
+nationalities.gl=Greenlandic
+nationalities.gd=Grenada
+nationalities.gp=Guadeloupe
+nationalities.gt=Guatemalan
+nationalities.gn=Guinea-Bissau
+nationalities.gw=Guinea-Bissau
+nationalities.gy=Guyanese
+nationalities.ht=Haitian
+nationalities.hn=Honduran
+nationalities.hk=Hong Kong
+nationalities.hu=Hungarian
+nationalities.is=Icelandic
+nationalities.ki=Kiribati
+nationalities.in=Indian
+nationalities.id=Indonesian
+nationalities.ir=Iranian
+nationalities.iq=Iraqi
+nationalities.ie=Irish
+nationalities.il=Israeli
+nationalities.it=Italian
+nationalities.ci=Ivory Coast
+nationalities.jm=Jamaican
+nationalities.jp=Japanese
+nationalities.jo=Jordanian
+nationalities.kz=Kazakh
+nationalities.ke=Kenyan
+nationalities.kw=Kuwaiti
+nationalities.kg=Kyrgyz
+nationalities.la=Laotian
+nationalities.lv=Latvian
+nationalities.lb=Lebanese
+nationalities.lr=Liberian
+nationalities.ly=Libyan
+nationalities.li=Liechtenstein
+nationalities.lt=Lithuanian
+nationalities.lc=Saint Lucia
+nationalities.mk=Macedonian
+nationalities.mw=Malawian
+nationalities.my=Malaysian
+nationalities.mv=Maldivian
+nationalities.ml=Malian
+nationalities.mt=Maltese
+nationalities.mh=Marshall Islands
+nationalities.mr=Mauritanian
+nationalities.mu=Mauritian
+nationalities.mx=Mexican
+nationalities.fm=Micronesian
+nationalities.md=Moldovan
+nationalities.mc=Monaco
+nationalities.mn=Mongolian
+nationalities.me=Montenegrin
+nationalities.ms=Montserrat
+nationalities.ma=Moroccan
+nationalities.mz=Mozambican
+nationalities.mm=Myanmar
+nationalities.na=Namibian
+nationalities.np=Nepali
+nationalities.nc=New Caledonian
+nationalities.nz=New Zealand
+nationalities.ni=Nicaraguan
+nationalities.ng=Nigerian
+nationalities.ne=Nigerian
+nationalities.vu=Vanuatu
+nationalities.kp=North Korean
+nationalities.no=Norwegian
+nationalities.om=Omani
+nationalities.pk=Pakistani
+nationalities.pa=Panamanian
+nationalities.pg=Papuan
+nationalities.py=Paraguayan
+nationalities.pe=Peruvian
+nationalities.ph=Filipino
+nationalities.pn=Pitcairn
+nationalities.pl=Polish
+nationalities.pt=Portuguese
+nationalities.qa=Qatari
+nationalities.ro=Romanian
+nationalities.ru=Russian
+nationalities.rw=Rwandan
+nationalities.sm=San Marino
+nationalities.as=Samoan
+nationalities.ws=Samoan
+nationalities.sa=Saudi Arabia
+nationalities.sn=Senegalese
+nationalities.rs=Serbian
+nationalities.sc=Seychelles
+nationalities.sl=Sierra Leone
+nationalities.sg=Singapore
+nationalities.sk=Slovak
+nationalities.si=Slovenian
+nationalities.sb=Solomon Islands
+nationalities.so=Somali
+nationalities.za=South African
+nationalities.kr=South Korean
+nationalities.es=Spanish
+nationalities.lk=Sri Lankan
+nationalities.sh=Saint Helena
+nationalities.sd=Sudanese
+nationalities.sr=Suriname
+nationalities.sz=Swaziland
+nationalities.se=Swedish
+nationalities.ch=Swiss
+nationalities.sy=Syrian
+nationalities.tw=Taiwanese
+nationalities.tj=Tajik
+nationalities.tz=Tanzanian
+nationalities.th=Thai
+nationalities.tl=Timorese
+nationalities.tg=Togolese
+nationalities.to=Tongan
+nationalities.tt=Trinidad
+nationalities.tn=Tunisian
+nationalities.tr=Turkish
+nationalities.tm=Turkmen
+nationalities.tv=Tuval
+nationalities.ug=Ugandan
+nationalities.ua=Ukrainian
+nationalities.uy=Uruguayan
+nationalities.uz=Uzbek
+nationalities.ve=Venezuelan
+nationalities.vn=Vietnamese
+nationalities.wf=Wallisian and Futunan
+nationalities.ye=Yemeni
+nationalities.zm=Zambian
+nationalities.zw=Zimbabwean
+nationalities.bw=Botswana
+nationalities.ky=Cayman Islands
+nationalities.cw=Curacao
+nationalities.dj=Djibouti
+nationalities.fo=Faroese
+nationalities.gf=French Guiana
+nationalities.pf=Polynesian
+nationalities.kt=Qatari
+nationalities.ko=Kosovo
+nationalities.le=Lesotho
+nationalities.lu=Luxembourgish
+nationalities.pw=Palauan
+nationalities.ps=Palestinian
+nationalities.pr=Puerto Rican
+
+nationalities.bl=Saint Barthelemy
+nationalities.b1=British Dependencies in Australia and Oceania
+nationalities.b2=British Dependencies in America
+nationalities.b3=British Dependencies in Africa
+nationalities.b4=British Dependencies in Asia
+nationalities.b5=British Dependencies in Europe
+nationalities.cx=Christmas Island
+nationalities.cc=Cocos Islands
+nationalities.km=Comoros
+nationalities.ae=United Arab Emirates
+nationalities.gu=Guam
+nationalities.ju=* others
+nationalities.kn=Saint Kitts and Nevis
+nationalities.mo=Macanese
+nationalities.yt=Mayotti
+nationalities.mg=Madagascar
+nationalities.im=Man
+nationalities.mq=Martinican
+nationalities.ls=Lesotho
+nationalities.nr=Nauru
+nationalities.nu=Niue
+nationalities.nf=Norfolk
+nationalities.mp=Northern Mariana Islands
+nationalities.oa=* no entry
+nationalities.vc=Saint Vincent and the Grenadines
+nationalities.pm=Saint Pierre and Miquelon
+nationalities.sv=Salvadoran
+nationalities.st=Sao Tome and Principe
+nationalities.s1=Serbia and Montenegro
+nationalities.tk=Tokelau
+nationalities.tc=Turks and Caicos Islands
+nationalities.un=* unknown
+nationalities.vs=Vatican
+nationalities.vg=Virgin Islands
+nationalities.vi=Virgin Islands
+nationalities.eh=West Saharan

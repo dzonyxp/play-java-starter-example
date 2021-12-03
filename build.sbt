@@ -5,8 +5,8 @@
     name := """play-java-starter-example""",
     version := "1.0-SNAPSHOT",
     scalaVersion := "2.13.6",
-    libraryDependencies ++= Seq(
-      guice, evolutions, javaJdbc,
+    libraryDependencies ++= Seq("com.fasterxml.jackson.core" % "jackson-xml-databind" % "2.10.0","com.fasterxml.jackson.dataformat" % "jackson-dataformat-xml" % "2.10.0",
+      guice, evolutions/*, javaJdbc*/, javaWs,
       // Test Database
       //"com.h2database" % "h2" % "1.4.199",
       // Testing libraries for dealing with CompletionStage...
@@ -45,3 +45,7 @@ inConfig(Test)(PlayEbean.scopedSettings)
 
 playEbeanModels in Test := Seq("models.*")
 //#play-ebean-test
+ libraryDependencies += ehcache
+
+ libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.10.0"
+ libraryDependencies += "com.fasterxml.jackson.dataformat" % "jackson-dataformat-xml" % "2.4.0"

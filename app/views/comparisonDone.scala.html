@@ -1,0 +1,17 @@
+@(list1: ArrayList[String], list2: ArrayList[String], nameFile1: String, nameFile2: String)
+
+@main02("Compare"){
+    <section id="content">
+        <ul>
+            <h3>Keys missing in @nameFile2</h3>
+            @for(item1 <- list1){
+                <li>@item1</li>
+            }
+            <h3>Keys missing in @nameFile1</h3>
+            @for(item2 <- list2){
+                <li>@item2</li>
+            }
+        </ul>
+
+    </section>
+}

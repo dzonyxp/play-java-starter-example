@@ -28,3 +28,13 @@ POST    /test                       controllers.HomeController.recieved(conf: St
 GET     /compare                  controllers.CompareController.compare(request: Request)
 +nocsrf
 POST     /compare                  controllers.CompareController.compare(request: Request)
+
++nocsrf
+POST    /sayHello                   controllers.JSONController.sayHello(request: Request)
+GET    /sayHello                   controllers.JSONController.sayHello(request: Request)
+
+GET     /feed                       controllers.JSONController.feed
+
++nocsrf
+POST    /                           controllers.JSONController.my_xml
+
